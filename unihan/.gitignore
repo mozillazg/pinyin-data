@@ -1,0 +1,9 @@
+*
+!.gitignore
+!README.md
+!parse_pinyin.py
+!kHanyuPinyin.txt
+!kHanyuPinlu.txt
+!kMandarin.txt
+!kXHC1983.txt
+!diff.sh
