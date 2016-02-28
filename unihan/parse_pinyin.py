@@ -12,7 +12,7 @@ def re_match_pinyin_line(kind):
 PINYIN = r'[^\d\.,]+'
 re_khanyupinyin = re.compile(r'''
     (?:\d{5}\.\d{2}0,)*\d{5}\.\d{2}0:
-    (?:(%(pinyin)s),)*
+    ((?:%(pinyin)s,)*)
     (%(pinyin)s)
 ''' % ({'pinyin': PINYIN}), re.X)
 re_kmandarin = re.compile(r'''
@@ -56,8 +56,17 @@ def parse(lines, kind='kHanyuPinyin', ignore_prefix='#') -> str:
 
         code = match.group('code')
         raw_pinyin = match.group('pinyin')
+        raw_pinyins = re_pinyin.findall(raw_pinyin)
+        # 处理有三个或三个以上拼音的情况，此时 raw_pinyins 类似
+        # [(' xī,', 'lǔ '), (' lǔ,', 'xī')] or [('shú,dú,', 'tù')]
+        for n, values in enumerate(raw_pinyins):
+            value = []
+            for v in values:
+                value.extend(v.split(','))
+            raw_pinyins[n] = value
+
         pinyins = functools.reduce(
-            operator.add, re_pinyin.findall(raw_pinyin)
+            operator.add, raw_pinyins
         )
         pinyins = [x.strip() for x in pinyins if x.strip()]
         pinyins = remove_dup_items(pinyins)
