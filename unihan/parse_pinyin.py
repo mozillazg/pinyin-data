@@ -70,7 +70,7 @@ def save_data(pinyins, writer):
         gl = {}
         exec('hanzi=chr(0x{})'.format(code), gl)
         hanzi = gl['hanzi']
-        line = '0x{code}: {pinyin}  # {hanzi}\n'.format(
+        line = 'U+{code}: {pinyin}  # {hanzi}\n'.format(
             code=code, pinyin=pinyin, hanzi=hanzi
         )
         writer.write(line)
