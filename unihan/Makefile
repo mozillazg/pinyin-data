@@ -1,7 +1,12 @@
 .PHONY: help
 help:
+	@echo "parse		parse Unihan database "
 	@echo "update		update Unihan database"
 	@echo "diff		diff between Unihan data and parsed data"
+
+.PHONY:parse
+parse:
+	@python parse_pinyin.py
 
 .PHONY:update
 update:
