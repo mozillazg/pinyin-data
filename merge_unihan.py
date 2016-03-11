@@ -41,18 +41,19 @@ def save_data(pinyin_map, writer):
         writer.write(line)
 
 
-def extend_pinyins(old_map, new_map):
+def extend_pinyins(old_map, new_map, only_no_exists=False):
     for code, pinyins in new_map.items():
-        old_map.setdefault(code, []).extend(pinyins)
+        if only_no_exists:   # 只当 code 不存在时才更新
+            if code not in old_map:
+                old_map[code] = pinyins
+        else:
+            old_map.setdefault(code, []).extend(pinyins)
 
 if __name__ == '__main__':
     raw_pinyin_map = {}
     with open('kHanyuPinyin.txt') as fp:
         khanyupinyin = parse_pinyins(fp.readlines())
         raw_pinyin_map.update(khanyupinyin)
-    with open('kHanyuPinlu.txt') as fp:
-        khanyupinyinlu = parse_pinyins(fp.readlines())
-        extend_pinyins(raw_pinyin_map, khanyupinyinlu)
     with open('kXHC1983.txt') as fp:
         kxhc1983 = parse_pinyins(fp.readlines())
         extend_pinyins(raw_pinyin_map, kxhc1983)
@@ -62,6 +63,12 @@ if __name__ == '__main__':
     with open('kMandarin.txt') as fp:
         adjust_pinyin_map = parse_pinyins(fp.readlines())
         extend_pinyins(raw_pinyin_map, adjust_pinyin_map)
+    with open('kHanyuPinlu.txt') as fp:
+        khanyupinyinlu = parse_pinyins(fp.readlines())
+        # 之所以只增加不存在的拼音数据而不更新已有的数据
+        # 是因为 kHanyuPinlu 的拼音数据中存在一部分不需要的轻声拼音
+        # 以及部分音调标错了位置，比如把 ``ǒu`` 标成了 ``oǔ``
+        extend_pinyins(raw_pinyin_map, khanyupinyinlu, only_no_exists=True)
 
     with open('overwrite.txt') as fp:
         overwrite_pinyin_map = parse_pinyins(fp.readlines())
@@ -72,6 +79,7 @@ if __name__ == '__main__':
         sorted(new_pinyin_map.items(),
                key=lambda item: int(item[0].replace('U+', '0x'), 16))
     )
+
     assert len(new_pinyin_map) == len(raw_pinyin_map)
     code_set = set(new_pinyin_map.keys())
     assert set(khanyupinyin.keys()) - code_set == set()
