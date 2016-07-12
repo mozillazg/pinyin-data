@@ -7,8 +7,8 @@
 数据格式：`{code point}: {pinyins}  # {hanzi}` （示例：`U+4E2D: zhōng,zhòng  # 中`）
 
 [Unihan Database][unihan] 数据版本：
-> Date: 2015-04-30 18:38:20 GMT [JHJ]       
-> Unicode version: 8.0.0
+> Date: 2016-06-01 07:01:48 GMT [JHJ]       
+> Unicode version: 9.0.0
 
 * `kHanyuPinyin.txt`: [Unihan Database][unihan] 中 [kHanyuPinyin](http://www.unicode.org/reports/tr38/#kHanyuPinyin) 部分的拼音数据（来源于《漢語大字典》的拼音数据）
 * `kXHC1983.txt`: [Unihan Database][unihan] 中 [kXHC1983](http://www.unicode.org/reports/tr38/#kXHC1983) 部分的拼音数据（来源于《现代汉语词典》的拼音数据）
