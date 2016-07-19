@@ -10,7 +10,7 @@ parse:
 
 .PHONY:update
 update:
-	rm Unihan*
+	-rm Unihan*
 	wget ftp://ftp.unicode.org/Public/UNIDATA/Unihan.zip -O Unihan.zip
 	unzip Unihan.zip
 	python parse_pinyin.py
