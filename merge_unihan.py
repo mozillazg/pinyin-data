@@ -16,7 +16,8 @@ def parse_pinyins(lines):
         if line.startswith('#'):
             continue
         code, pinyin = line.split('#')[0].split(':')
-        pinyin_map[code.strip()] = pinyin.strip().split(',')
+        pinyin = ','.join([x.strip() for x in pinyin.split() if x.strip()])
+        pinyin_map[code.strip()] = pinyin.split(',')
     return pinyin_map
 
 
