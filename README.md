@@ -1,6 +1,7 @@
-# pinyin-data
+# pinyin-data [![Build Status](https://travis-ci.org/mozillazg/pinyin-data.svg?branch=master)](https://travis-ci.org/mozillazg/pinyin-data)
 
 汉字拼音数据。
+
 
 ## 数据介绍
 
@@ -18,6 +19,7 @@
 * `overwrite.txt`: 手工纠正的拼音数据（**上面的拼音数据都是通过程序生成的，修改的话只修改这个就可以了**）
 * `pinyin.txt`: 合并上述文件后的拼音数据
 * `zdic.txt`: [汉典网](http://zdic.net) 的拼音数据
+
 
 ## 参考资料
 
