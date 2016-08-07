@@ -18381,7 +18381,7 @@ U+7F53: gāng  # 罓
 U+7F54: wǎng,wáng  # 罔
 U+7F55: hǎn,hàn  # 罕
 U+7F56: luó  # 罖
-U+7F57: luō,luó  # 罗
+U+7F57: luó  # 罗
 U+7F58: fú  # 罘
 U+7F59: shēn  # 罙
 U+7F5A: fá  # 罚
