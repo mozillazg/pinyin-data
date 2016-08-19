@@ -3,8 +3,8 @@
 
 ## 0.3.0 (2016-mm-dd):
 
-* Fix some pinyin: 罗.
-* Support Chinese that in PUA(`Private Use Area <https://en.wikipedia.org/wiki/Private_Use_Areas>`) [#2](https://github.com/mozillazg/pinyin-data/pull/2).
+* Fix some pinyin: 罗 via [468ffaa8](https://github.com/mozillazg/pinyin-data/commit/468ffaa8eb678637c7565a02e6836255bd0df06c) .
+* Support Chinese that in PUA([Private Use Area](https://en.wikipedia.org/wiki/Private_Use_Areas>)) via [#2](https://github.com/mozillazg/pinyin-data/pull/2).
 
 
 ## 0.2.0 (2016-07-19):
