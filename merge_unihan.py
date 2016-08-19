@@ -70,6 +70,9 @@ if __name__ == '__main__':
         # 是因为 kHanyuPinlu 的拼音数据中存在一部分不需要的轻声拼音
         # 以及部分音调标错了位置，比如把 ``ǒu`` 标成了 ``oǔ``
         extend_pinyins(raw_pinyin_map, khanyupinyinlu, only_no_exists=True)
+    with open('PUA.txt') as fp:
+        pua_pinyin_map = parse_pinyins(fp.readlines())
+        extend_pinyins(raw_pinyin_map, pua_pinyin_map)
 
     with open('overwrite.txt') as fp:
         overwrite_pinyin_map = parse_pinyins(fp.readlines())
@@ -88,5 +91,8 @@ if __name__ == '__main__':
     assert set(kxhc1983.keys()) - code_set == set()
     assert set(adjust_pinyin_map.keys()) - code_set == set()
     assert set(overwrite_pinyin_map.keys()) - code_set == set()
+    assert set(pua_pinyin_map.keys()) - code_set == set()
     with open('pinyin.txt', 'w') as fp:
+        fp.write('# version: 0.3.0\n')
+        fp.write('# source: https://github.com/mozillazg/pinyin-data\n')
         save_data(new_pinyin_map, fp)

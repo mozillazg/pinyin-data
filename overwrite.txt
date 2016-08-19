@@ -3,3 +3,4 @@
 # 数据格式：{code point}: {pinyins}  # {hanzi}
 # 示例：
 # U+4E2D: zhōng,zhòng  # 中
+U+7F57: luó  # 罗
