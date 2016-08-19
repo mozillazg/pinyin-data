@@ -91,5 +91,6 @@ if __name__ == '__main__':
     assert set(kxhc1983.keys()) - code_set == set()
     assert set(adjust_pinyin_map.keys()) - code_set == set()
     assert set(overwrite_pinyin_map.keys()) - code_set == set()
+    assert set(pua_pinyin_map.keys()) - code_set == set()
     with open('pinyin.txt', 'w') as fp:
         save_data(new_pinyin_map, fp)
