@@ -5,7 +5,11 @@
 
 ## 数据介绍
 
-数据格式：`{code point}: {pinyins}  # {hanzi}` （示例：`U+4E2D: zhōng,zhòng  # 中`）
+数据格式：
+
+* 格式：`{code point}: {pinyins}  # {hanzi}` （示例：`U+4E2D: zhōng,zhòng  # 中`）
+* 以 `#` 开头的行是注释
+
 
 [Unihan Database][unihan] 数据版本：
 > Date: 2016-06-01 07:01:48 GMT [JHJ]       
