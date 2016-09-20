@@ -4,7 +4,7 @@
 ## 0.4.0 (2016-mm-dd):
 
 * Update PUA.txt 详见 [#7](https://github.com/mozillazg/pinyin-data/issues/7) thanks [@Artoria2e5][@Artoria2e5]
-* Rename PUA.txt to GB_PUA.txt 详见 [#7](https://github.com/mozillazg/pinyin-data/issues/7)
+* Rename PUA.txt to GBK_PUA.txt 详见 [#7](https://github.com/mozillazg/pinyin-data/issues/7)
 
 
 ## 0.3.0 (2016-08-19):

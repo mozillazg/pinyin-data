@@ -9,4 +9,4 @@ merge_unihan:
 
 .PHONY: pua
 pua:
-	python tools/gen_gb_pua.py > GB_PUA.txt
+	python tools/gen_gb_pua.py > GBK_PUA.txt

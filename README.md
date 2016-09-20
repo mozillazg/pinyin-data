@@ -19,7 +19,7 @@
 * `kXHC1983.txt`: [Unihan Database][unihan] 中 [kXHC1983](http://www.unicode.org/reports/tr38/#kXHC1983) 部分的拼音数据（来源于《现代汉语词典》的拼音数据）
 * `kHanyuPinlu.txt`: [Unihan Database][unihan] 中 [kHanyuPinlu](http://www.unicode.org/reports/tr38/#kHanyuPinlu) 部分的拼音数据（来源于《現代漢語頻率詞典》的拼音数据）
 * `kMandarin.txt`: [Unihan Database][unihan] 中 [kMandarin](http://www.unicode.org/reports/tr38/#kMandarin) 部分的拼音数据（普通话中最常用的一个读音。zh-CN 为主，如果 zh-CN 中没有则使用 zh-TW 中的拼音）
-* `GB_PUA.txt`: [Private Use Area](https://en.wikipedia.org/wiki/Private_Use_Areas) 中有拼音的汉字，参考 [GB 18030 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/GB_18030#PUA)
+* `GBK_PUA.txt`: [Private Use Area](https://en.wikipedia.org/wiki/Private_Use_Areas) 中有拼音的汉字，参考 [GB 18030 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/GB_18030#PUA)
 * `nonCJKUI.txt`: 不属于 [CJK Unified Ideograph](https://en.wikipedia.org/wiki/CJK_Unified_Ideographs) 但是却有拼音的字符
 * `overwrite.txt`: 手工纠正的拼音数据（**上面的拼音数据都是通过程序生成的，修改的话只修改这个就可以了**）
 * `pinyin.txt`: 合并上述文件后的拼音数据
