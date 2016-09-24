@@ -26693,7 +26693,7 @@ U+E83A: yáng,xiáng  # 
 U+E83B: zāi  # 
 U+E83C: bà,bēi  # 
 U+E83D: bà,bēi  # 
-U+E83F: zhuān,chuán,chún,zhuǎn  # 
+U+E83F: zhuān,zhuán,chuǎn,chún  # 
 U+E840: qióng  # 
 U+E841: kuì,huì  # 
 U+E842: kuì,huì  # 
@@ -31585,7 +31585,7 @@ U+241EF: ēn,āo  # 𤇯
 U+241F0: fá  # 𤇰
 U+241F3: xù,xuè  # 𤇳
 U+241F4: yí,xī  # 𤇴
-U+241FE: yìng  # 𤇾
+U+241FE: yíng  # 𤇾
 U+24214: chí  # 𤈔
 U+24219: yí  # 𤈙
 U+24225: dí  # 𤈥

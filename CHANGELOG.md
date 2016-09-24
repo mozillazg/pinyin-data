@@ -1,6 +1,12 @@
 # ChangeLog
 
 
+## 0.4.0 (2016-mm-dd):
+
+* Update PUA.txt 详见 [#7](https://github.com/mozillazg/pinyin-data/issues/7) thanks [@Artoria2e5][@Artoria2e5]
+* Rename PUA.txt to GBK_PUA.txt 详见 [#7](https://github.com/mozillazg/pinyin-data/issues/7)
+
+
 ## 0.3.0 (2016-08-19):
 
 * Fixed format of zdic.txt via [b8e4394](https://github.com/mozillazg/pinyin-data/commit/b8e439490d2c6e8c711652983db52fb69136919b).
@@ -20,3 +26,6 @@
 ## 0.1.0 (2016-03-11)
 
 * Initial Release
+
+
+[@Artoria2e5]: https://github.com/Artoria2e5
