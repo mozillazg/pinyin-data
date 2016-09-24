@@ -64,7 +64,7 @@ U+E851: zhèng  #   Unihan: U+499B 䦛
 U+E852: chuài  #   Unihan: U+49B7 䦷
 U+E853: zhèng  #   Unihan: U+49B6 䦶
 # U+E854:   #   Unihan: U+9FBA 龺
-U+E855: yìng  #   Unihan: U+241FE 𤇾
+U+E855: yíng  #   Unihan: U+241FE 𤇾
 U+E856: yú  #   Unihan: U+4CA3 䲣
 U+E857: yìn  #   Unihan: U+4C9F 䲟
 U+E858: chūn  #   Unihan: U+4CA0 䲠

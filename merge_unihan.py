@@ -70,12 +70,13 @@ if __name__ == '__main__':
         # 是因为 kHanyuPinlu 的拼音数据中存在一部分不需要的轻声拼音
         # 以及部分音调标错了位置，比如把 ``ǒu`` 标成了 ``oǔ``
         extend_pinyins(raw_pinyin_map, khanyupinyinlu, only_no_exists=True)
-    with open('PUA.txt') as fp:
+    with open('GBK_PUA.txt') as fp:
         pua_pinyin_map = parse_pinyins(fp.readlines())
         extend_pinyins(raw_pinyin_map, pua_pinyin_map)
 
     with open('overwrite.txt') as fp:
         overwrite_pinyin_map = parse_pinyins(fp.readlines())
+        extend_pinyins(raw_pinyin_map, overwrite_pinyin_map)
 
     new_pinyin_map = merge(raw_pinyin_map, adjust_pinyin_map,
                            overwrite_pinyin_map)

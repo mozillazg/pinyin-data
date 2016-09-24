@@ -30,3 +30,4 @@ U+E84A: yé,yá  # 
 U+E850: chuài  # 
 U+E854: zhuó  # 
 U+E864: luán  # 
+U+241FE: yíng  # 𤇾
