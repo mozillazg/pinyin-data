@@ -2,6 +2,18 @@
 import collections
 
 
+def code_to_hanzi(code):
+    hanzi = chr(int(code.replace('U+', '0x'), 16))
+    return hanzi
+
+
+def sort_pinyin_dict(pinyin_dict):
+    return collections.OrderedDict(
+        sorted(pinyin_dict.items(),
+               key=lambda item: int(item[0].replace('U+', '0x'), 16))
+    )
+
+
 def remove_dup_items(lst):
     new_lst = []
     for item in lst:
@@ -10,10 +22,11 @@ def remove_dup_items(lst):
     return new_lst
 
 
-def parse_pinyins(lines):
+def parse_pinyins(fp):
     pinyin_map = {}
-    for line in lines:
-        if line.startswith('#'):
+    for line in fp:
+        line = line.strip()
+        if line.startswith('#') or not line:
             continue
         code, pinyin = line.split('#')[0].split(':')
         pinyin = ','.join([x.strip() for x in pinyin.split() if x.strip()])
@@ -35,7 +48,7 @@ def merge(raw_pinyin_map, adjust_pinyin_map, overwrite_pinyin_map):
 
 def save_data(pinyin_map, writer):
     for code, pinyins in pinyin_map.items():
-        hanzi = chr(int(code.replace('U+', '0x'), 16))
+        hanzi = code_to_hanzi(code)
         line = '{code}: {pinyin}  # {hanzi}\n'.format(
             code=code, pinyin=','.join(pinyins), hanzi=hanzi
         )
@@ -53,37 +66,38 @@ def extend_pinyins(old_map, new_map, only_no_exists=False):
 if __name__ == '__main__':
     raw_pinyin_map = {}
     with open('kHanyuPinyin.txt') as fp:
-        khanyupinyin = parse_pinyins(fp.readlines())
+        khanyupinyin = parse_pinyins(fp)
         raw_pinyin_map.update(khanyupinyin)
     with open('kXHC1983.txt') as fp:
-        kxhc1983 = parse_pinyins(fp.readlines())
+        kxhc1983 = parse_pinyins(fp)
         extend_pinyins(raw_pinyin_map, kxhc1983)
     with open('nonCJKUI.txt') as fp:
-        noncjkui = parse_pinyins(fp.readlines())
+        noncjkui = parse_pinyins(fp)
         extend_pinyins(raw_pinyin_map, noncjkui)
+    with open('kMandarin_8105.txt') as fp:
+        adjust_pinyin_map = parse_pinyins(fp)
+        extend_pinyins(raw_pinyin_map, adjust_pinyin_map)
     with open('kMandarin.txt') as fp:
-        adjust_pinyin_map = parse_pinyins(fp.readlines())
+        _map = parse_pinyins(fp)
+        extend_pinyins(adjust_pinyin_map, _map)
         extend_pinyins(raw_pinyin_map, adjust_pinyin_map)
     with open('kHanyuPinlu.txt') as fp:
-        khanyupinyinlu = parse_pinyins(fp.readlines())
+        khanyupinyinlu = parse_pinyins(fp)
         # 之所以只增加不存在的拼音数据而不更新已有的数据
         # 是因为 kHanyuPinlu 的拼音数据中存在一部分不需要的轻声拼音
         # 以及部分音调标错了位置，比如把 ``ǒu`` 标成了 ``oǔ``
         extend_pinyins(raw_pinyin_map, khanyupinyinlu, only_no_exists=True)
     with open('GBK_PUA.txt') as fp:
-        pua_pinyin_map = parse_pinyins(fp.readlines())
+        pua_pinyin_map = parse_pinyins(fp)
         extend_pinyins(raw_pinyin_map, pua_pinyin_map)
 
     with open('overwrite.txt') as fp:
-        overwrite_pinyin_map = parse_pinyins(fp.readlines())
+        overwrite_pinyin_map = parse_pinyins(fp)
         extend_pinyins(raw_pinyin_map, overwrite_pinyin_map)
 
     new_pinyin_map = merge(raw_pinyin_map, adjust_pinyin_map,
                            overwrite_pinyin_map)
-    new_pinyin_map = collections.OrderedDict(
-        sorted(new_pinyin_map.items(),
-               key=lambda item: int(item[0].replace('U+', '0x'), 16))
-    )
+    new_pinyin_map = sort_pinyin_dict(new_pinyin_map)
 
     assert len(new_pinyin_map) == len(raw_pinyin_map)
     code_set = set(new_pinyin_map.keys())
