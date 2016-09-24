@@ -1,29 +1,5 @@
 # GBK/GB 18030 PUA 映射
 # 详见：https://zh.wikipedia.org/wiki/GB_18030#PUA
-# U+:   #   Unihan: U+FE10 ︐
-# U+:   #   Unihan: U+FE12 ︒
-# U+:   #   Unihan: U+FE11 ︑
-# U+:   #   Unihan: U+FE13 ︓
-# U+:   #   Unihan: U+FE14 ︔
-# U+:   #   Unihan: U+FE15 ︕
-# U+:   #   Unihan: U+FE16 ︖
-# U+:   #   Unihan: U+FE17 ︗
-# U+:   #   Unihan: U+FE18 ︘
-# U+E7C7:   #   Unihan: U+1E3F ḿ
-# U+E7C8:   #   Unihan: U+01F9 ǹ
-# U+E7E7:   #   Unihan: U+303E 〾
-# U+E7E8:   #   Unihan: U+2FF0 ⿰
-# U+E7E9:   #   Unihan: U+2FF1 ⿱
-# U+E7EA:   #   Unihan: U+2FF2 ⿲
-# U+E7EB:   #   Unihan: U+2FF3 ⿳
-# U+E7EC:   #   Unihan: U+2FF4 ⿴
-# U+E7ED:   #   Unihan: U+2FF5 ⿵
-# U+E7EE:   #   Unihan: U+2FF6 ⿶
-# U+E7EF:   #   Unihan: U+2FF7 ⿷
-# U+E7F0:   #   Unihan: U+2FF8 ⿸
-# U+E7F1:   #   Unihan: U+2FF9 ⿹
-# U+E7F2:   #   Unihan: U+2FFA ⿺
-# U+E7F3:   #   Unihan: U+2FFB ⿻
 # U+E815:   #   Unihan: U+2E81 ⺁
 U+E816: zuǒ  #   Unihan: U+20087 𠂇
 # U+E817:   #   Unihan: U+20089 𠂉
