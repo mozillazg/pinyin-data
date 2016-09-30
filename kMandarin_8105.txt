@@ -2,6 +2,7 @@
 # -> 表示需要验证
 # ? 表示有争议，无法确定哪个是最常用的
 # <- 表示需要补充拼音信息
+# URO (7,832)
 U+4E00: yī  # 一
 U+4E01: dīng  # 丁
 U+4E03: qī  # 七
@@ -7834,6 +7835,7 @@ U+9FA2: hé  # 龢
 U+9FCD: gàng  # 鿍
 U+9FCE: tǎ  # 鿎
 U+9FCF: mài  # 鿏
+# Extension A (77)
 U+3447: zhòu  # 㑇
 U+344A: yì  # 㑊
 U+356E: fǔ  # 㕮
@@ -7888,7 +7890,7 @@ U+44D6: qióng  # 䓖
 U+44DB: qū  # 䓛 -> fǔ
 U+44E8: yīng  # 䓨
 U+44EB: qí  # 䓫 -> jì
-# U+44EC: <-  # 䓬
+U+44EC: zhuó  # 䓬
 U+45D6: dì  # 䗖
 U+45DB: xiū  # 䗛
 U+45EA: zhè  # 䗪
@@ -7911,6 +7913,7 @@ U+4D17: jú  # 䴗
 U+4D18: tī  # 䴘
 U+4D19: pì  # 䴙
 U+4DAE: yǎn  # 䶮
+# Extension B (36)
 U+20164: xí  # 𠅤
 U+20676: ǒu  # 𠙶
 U+20CD0: bāng  # 𠳐
@@ -7947,40 +7950,41 @@ U+28E99: nì  # 𨺙
 U+29F7E: ān  # 𩽾 -> ān
 U+29F83: miǎn  # 𩾃
 U+29F8C: kāng  # 𩾌 -> kāng
-# U+2A7DD: <-  # 𪟝
-# U+2A8FB: <-  # 𪣻
-# U+2A917: <-  # 𪤗
-# U+2AA30: <-  # 𪨰
-# U+2AA36: <-  # 𪨶
-# U+2AA58: <-  # 𪩘
+# Extension C (44)
+U+2A7DD: jì  # 𪟝
+U+2A8FB: lóu  # 𪣻
+U+2A917: liào  # 𪤗
+U+2AA30: qū  # 𪨰
+U+2AA36: shē  # 𪨶
+U+2AA58: yǎn  # 𪩘
 U+2AFA2: xiàn  # 𪾢
-# U+2B127: <-  # 𫄧
+U+2B127: yán  # 𫄧
 U+2B128: chī  # 𫄨
-# U+2B137: <-  # 𫄷
+U+2B137: yì  # 𫄷
 U+2B138: xūn  # 𫄸
-# U+2B1ED: <-  # 𫇭
+U+2B1ED: wěi  # 𫇭
 U+2B300: jī  # 𫌀
 U+2B363: tóng  # 𫍣
-# U+2B36F: <-  # 𫍯
+U+2B36F: xián  # 𫍯
 U+2B372: xiǎo  # 𫍲
-# U+2B37D: <-  # 𫍽
+U+2B37D: xuān  # 𫍽
 U+2B404: yuè  # 𫐄
 U+2B410: ní  # 𫐐
 U+2B413: bù  # 𫐓
-# U+2B461: <-  # 𫑡
+U+2B461: méng  # 𫑡
 U+2B4E7: fū  # 𫓧
-# U+2B4EF: <-  # 𫓯
-# U+2B4F6: <-  # 𫓶
-# U+2B4F9: <-  # 𫓹
-# U+2B50D: <-  # 𫔍
+U+2B4EF: jī  # 𫓯
+U+2B4F6: xuān  # 𫓶
+U+2B4F9: jī  # 𫓹
+U+2B50D: fán  # 𫔍
 U+2B50E: jué  # 𫔎
-# U+2B536: <-  # 𫔶
-# U+2B5AE: <-  # 𫖮
-# U+2B5AF: <-  # 𫖯
-# U+2B5B3: <-  # 𫖳
+U+2B536: niè  # 𫔶
+U+2B5AE: yǐ  # 𫖮
+U+2B5AF: fǔ  # 𫖯
+U+2B5B3: yūn  # 𫖳
 U+2B5E7: sù  # 𫗧
 U+2B5F4: zhān  # 𫗴
-# U+2B61C: <-  # 𫘜
+U+2B61C: wén  # 𫘜
 U+2B61D: jué  # 𫘝
 # U+2B626: <-  # 𫘦
 # U+2B627: <-  # 𫘧
@@ -7991,6 +7995,7 @@ U+2B695: shī  # 𫚕
 # U+2B696: <-  # 𫚖
 # U+2B6AD: <-  # 𫚭
 # U+2B6ED: <-  # 𫛭
+# Extension D (8)
 U+2B7A9: mén  # 𫞩
 U+2B7C5: liáng  # 𫟅
 U+2B7E6: suì  # 𫟦
@@ -7999,6 +8004,7 @@ U+2B7FC: dá  # 𫟼
 U+2B806: kuǐ  # 𫠆
 U+2B80A: xuán  # 𫠊
 U+2B81C: ní  # 𫠜
+# Extension E (108)
 # U+2B8B8: <-  # 𫢸
 # U+2BAC7: <-  # 𫫇
 # U+2BB5F: <-  # 𫭟
@@ -8080,30 +8086,31 @@ U+2B81C: ní  # 𫠜
 # U+2CBBF: <-  # 𬮿
 # U+2CBC0: <-  # 𬯀
 # U+2CBCE: <-  # 𬯎
-# U+2CC56: <-  # 𬱖
-# U+2CC5F: <-  # 𬱟
-# U+2CCF5: <-  # 𬳵
-# U+2CCF6: <-  # 𬳶
-# U+2CCFD: <-  # 𬳽
-# U+2CCFF: <-  # 𬳿
-# U+2CD02: <-  # 𬴂
-# U+2CD03: <-  # 𬴃
-# U+2CD0A: <-  # 𬴊
-# U+2CD8B: <-  # 𬶋
-# U+2CD8D: <-  # 𬶍
-# U+2CD8F: <-  # 𬶏
-# U+2CD90: <-  # 𬶐
-# U+2CD9F: <-  # 𬶟
-# U+2CDA0: <-  # 𬶠
-# U+2CDA8: <-  # 𬶨
-# U+2CDAD: <-  # 𬶭
-# U+2CDAE: <-  # 𬶮
-# U+2CDD5: <-  # 𬷕
-# U+2CE18: <-  # 𬸘
-# U+2CE1A: <-  # 𬸚
-# U+2CE23: <-  # 𬸣
-# U+2CE26: <-  # 𬸦
-# U+2CE2A: <-  # 𬸪
-# U+2CE7C: <-  # 𬹼
-# U+2CE88: <-  # 𬺈
-# U+2CE93: <-  # 𬺓
+U+2CC56: dí  # 𬱖  => U+9814
+U+2CC5F: wěi  # 𬱟  => U+9820
+U+2CCF5: pī  # 𬳵  => U+99D3
+U+2CCF6: jiōng  # 𬳶  => U+99C9
+U+2CCFD: shēn  # 𬳽  => U+99EA
+U+2CCFF: tú  # 𬳿  => U+99FC
+U+2CD02: fēi  # 𬴂  => U+9A11
+U+2CD03: huō  # 𬴃  => U+9A1E
+U+2CD0A: lín  # 𬴊  => U+9A4E
+U+2CD8B: jū  # 𬶋  => U+9B88
+U+2CD8D: tuó  # 𬶍  => U+9B80
+U+2CD8F: wéi  # 𬶏  => U+9BA0
+U+2CD90: zhào  # 𬶐  => U+9BA1
+U+2CD9F: là  # 𬶟  => U+9BFB
+U+2CDA0: liàn  # 𬶠  => U+9C0A
+U+2CDA8: jì  # 𬶨  => U+9C40
+U+2CDAD: jì  # 𬶭  => U+9C36
+U+2CDAE: xǐ  # 𬶮  => U+9C5A
+U+2CDD5: bū  # 𬷕  => U+9D4F
+U+2CE18: yǎn  # 𬸘  => U+9DA0
+U+2CE1A: yuè  # 𬸚  => U+9E11
+U+2CE23: xiān  # 𬸣  => U+9DB1
+U+2CE26: zhuó  # 𬸦  => U+9DDF
+U+2CE2A: fán  # 𬸪  => U+9DED
+U+2CE7C: xiè  # 𬹼  => U+9F58
+U+2CE88: yǐ  # 𬺈  =>  U+9F6E
+U+2CE93: chǔ  # 𬺓  =>  U+9F7C
+# EOF
