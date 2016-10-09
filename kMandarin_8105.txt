@@ -8009,7 +8009,7 @@ U+2B8B8: dàn  # 𫢸  => U+50E4
 U+2BAC7: ě  # 𫫇  => U+5641
 U+2BB5F: ōu  # 𫭟  => U+5878  ?-> qiū
 U+2BB62: lǔn  # 𫭢  => U+57E8
-# U+2BB7C: <-  # 𫭼
+U+2BB7C: láo  # 𫭼  => U+2144D
 U+2BB83: shàn  # 𫮃  => U+58A0
 U+2BC1B: xíng  # 𫰛  => U+5A19
 U+2BD77: lì  # 𫵷  => U+3823
@@ -8026,13 +8026,13 @@ U+2C1F9: guó  # 𬇹  => U+6F0D
 U+2C27C: ōu  # 𬉼  => U+71B0  ?-> ǒu
 U+2C288: xún  # 𬊈  => U+71D6
 U+2C2A4: chǎn  # 𬊤  => U+71C0  ?-> dǎn,chàn
-# U+2C317: <-  # 𬌗
+U+2C317: hé  # 𬌗
 U+2C35B: lì  # 𬍛  => U+74C5
 U+2C361: dàng  # 𬍡  => U+7497
 U+2C364: xún  # 𬍤  => U+7495
 U+2C488: què  # 𬒈  => U+7910  ?-> hú
-# U+2C494: <-  # 𬒔
-# U+2C497: <-  # 𬒗
+U+2C494: gěng  # 𬒔
+U+2C497: lán  # 𬒗
 U+2C542: gōng  # 𬕂  => U+7BE2  ?-> gǎn,lǒng
 U+2C613: xún  # 𬘓  => U+7D03
 U+2C618: dǎn  # 𬘘  => U+7D1E
@@ -8046,7 +8046,7 @@ U+2C642: yǎn  # 𬙂  => U+7E2F  ?-> yǐn
 U+2C64A: mò  # 𬙊  => U+7E86
 U+2C64B: xiāng  # 𬙋  => U+7E95  ?-> rǎng
 U+2C72C: màn  # 𬜬  => U+8504
-# U+2C72F: <-  # 𬜯
+U+2C72F: liǎng  # 𬜯  => U+44E3
 U+2C79F: pín  # 𬞟  => U+860B  ?-> píng
 U+2C7C1: yì  # 𬟁  => U+8649
 U+2C7FD: dōng  # 𬟽  => U+8740
@@ -8070,16 +8070,16 @@ U+2CB39: shén  # 𬬹  => U+926E
 U+2CB3B: lú  # 𬬻  => U+946A
 U+2CB3F: zhāo  # 𬬿  => U+924A
 U+2CB41: mǔ  # 𬭁  => U+9267
-# U+2CB4A: <-  # 𬭊
+U+2CB4A: dù  # 𬭊  => U+289C0
 U+2CB4E: hóng  # 𬭎  => U+92D0
 U+2CB5A: chún  # 𬭚  => U+931E
-# U+2CB5B: <-  # 𬭛
+U+2CB5B: bō  # 𬭛  => U+28A0F
 U+2CB64: hóu  # 𬭤  => U+936D
 U+2CB69: wēng  # 𬭩  => U+9393
 U+2CB6C: wèi  # 𬭬  => U+93CF
 U+2CB6F: piě  # 𬭯  => U+4955
-# U+2CB73: <-  # 𬭳
-# U+2CB76: <-  # 𬭶
+U+2CB73: xǐ  # 𬭳  => U+28B4E
+U+2CB76: hēi  # 𬭶  => U+28B46
 U+2CB78: lín  # 𬭸  => U+93FB
 U+2CB7C: suì  # 𬭼  => U+9429
 U+2CBB1: yīn  # 𬮱  => U+95C9
