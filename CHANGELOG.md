@@ -1,6 +1,14 @@
 # ChangeLog
 
 
+## 0.4.0 (2016-10-17):
+
+* Update PUA.txt 详见 [#7](https://github.com/mozillazg/pinyin-data/issues/7) thanks [@Artoria2e5][@Artoria2e5]
+* Rename PUA.txt to GBK_PUA.txt 详见 [#7](https://github.com/mozillazg/pinyin-data/issues/7)
+* Add kMandarin_8105.txt (《通用规范汉字表》里 8105 个汉字最常用的一个读音) [#9][#9] [#11][#11]
+* Update pinyin.txt with latest data
+
+
 ## 0.3.0 (2016-08-19):
 
 * Fixed format of zdic.txt via [b8e4394](https://github.com/mozillazg/pinyin-data/commit/b8e439490d2c6e8c711652983db52fb69136919b).
@@ -20,3 +28,8 @@
 ## 0.1.0 (2016-03-11)
 
 * Initial Release
+
+
+[@Artoria2e5]: https://github.com/Artoria2e5
+[#9]: https://github.com/mozillazg/pinyin-data/pull/9
+[#11]: https://github.com/mozillazg/pinyin-data/pull/11
