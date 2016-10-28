@@ -32,6 +32,7 @@
 * [Unihan Database Lookup](http://www.unicode.org/charts/unihan.html)
 * [汉典 zdic.net](http://www.zdic.net/)
 * [字海网，叶典网](http://zisea.com/)
+* [国学大师_国学网](http://www.guoxuedashi.com/)
 * [Unicode、GB2312、GBK和GB18030中的汉字](http://www.fmddlmyy.cn/text24.html)
 * [GB 18030 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/GB_18030#PUA)
 * [通用规范汉字表 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
