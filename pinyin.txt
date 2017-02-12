@@ -1,4 +1,4 @@
-# version: 0.4.0
+# version: 0.4.1
 # source: https://github.com/mozillazg/pinyin-data
 U+3007: líng  # 〇
 U+3400: qiū  # 㐀
@@ -8756,7 +8756,7 @@ U+59AF: zhóu,chōu  # 妯
 U+59B0: zhuó  # 妰
 U+59B1: zhāo  # 妱
 U+59B2: dá  # 妲
-U+59B3: nǎi,nǐ  # 妳
+U+59B3: nǐ,nǎi  # 妳
 U+59B4: yuàn  # 妴
 U+59B5: tǒu  # 妵
 U+59B6: xián,xuán,xù  # 妶
@@ -23847,7 +23847,7 @@ U+94A9: gōu  # 钩
 U+94AA: kàng  # 钪
 U+94AB: fāng  # 钫
 U+94AC: huǒ  # 钬
-U+94AD: tǒu  # 钭
+U+94AD: tǒu,dǒu  # 钭
 U+94AE: niǔ  # 钮
 U+94AF: bǎ,pá  # 钯
 U+94B0: yù  # 钰

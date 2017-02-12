@@ -1,6 +1,12 @@
 # ChangeLog
 
 
+## 0.4.1 (2017-02-12):
+
+* `妳` 的最常用拼音调整为 `nǐ` via [eb08200](https://github.com/mozillazg/pinyin-data/commit/eb08200d0a203c57ecc62ec7a118765518430238)
+* `钭` 的拼音更新为 `tǒu,dǒu` via [fb9e64e](https://github.com/mozillazg/pinyin-data/commit/fb9e64e6c0a20eb0e792e8a402dffbf8cc2dfa57)
+
+
 ## 0.4.0 (2016-10-17):
 
 * Update PUA.txt 详见 [#7](https://github.com/mozillazg/pinyin-data/issues/7) thanks [@Artoria2e5][@Artoria2e5]
