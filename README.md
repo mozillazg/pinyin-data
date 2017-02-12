@@ -10,9 +10,10 @@
     {code point}: {pinyins}  # {hanzi} {comments}
 
 * 以 `#` 开头的行是注释
+* `{pinyins}` 中使用逗号分隔多个拼音
 * 示例：
 
-      U+4E2D: zhōng,zhòng  # 中
+        U+4E2D: zhōng,zhòng  # 中
 
 
 [Unihan Database][unihan] 数据版本：
