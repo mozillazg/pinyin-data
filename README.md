@@ -5,10 +5,14 @@
 
 ## 数据介绍
 
-数据格式：
+拼音数据的格式：
 
-* 格式：`{code point}: {pinyins}  # {hanzi} {comments}` （示例：`U+4E2D: zhōng,zhòng  # 中`）
+    {code point}: {pinyins}  # {hanzi} {comments}
+
 * 以 `#` 开头的行是注释
+* 示例：
+
+      U+4E2D: zhōng,zhòng  # 中
 
 
 [Unihan Database][unihan] 数据版本：
