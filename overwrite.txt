@@ -5,6 +5,7 @@
 # U+4E2D: zhōng,zhòng  # 中
 U+59B3: nǐ,nǎi  # 妳
 U+7F57: luó  # 罗
+U+94AD: tǒu,dǒu  # 钭
 U+E815: yè  # 
 U+E816: zuǒ,yǒu  # 
 U+E81B: zhòu,zhū  # 
