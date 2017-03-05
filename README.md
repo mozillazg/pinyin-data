@@ -13,6 +13,7 @@
 * `{pinyins}` 中使用逗号分隔多个拼音
 * 示例：
 
+        # 注释
         U+4E2D: zhōng,zhòng  # 中
 
 
@@ -44,3 +45,8 @@
 * [China’s 通用规范汉字表 (Tōngyòng Guīfàn Hànzìbiǎo)](https://blogs.adobe.com/CCJKType/2014/03/china-8105.html)
 
 [unihan]: http://www.unicode.org/charts/unihan.html
+
+
+## 相关项目
+
+* [mozillazg/phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data): 词语拼音数据
