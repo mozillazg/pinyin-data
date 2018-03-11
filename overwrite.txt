@@ -3,6 +3,7 @@
 # 数据格式：{code point}: {pinyins}  # {hanzi}
 # 示例：
 # U+4E2D: zhōng,zhòng  # 中
+U+5434: wú  # 吴
 U+59B3: nǐ,nǎi  # 妳
 U+7F57: luó  # 罗
 U+94AD: tǒu,dǒu  # 钭
