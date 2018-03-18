@@ -3,9 +3,12 @@
 # 数据格式：{code point}: {pinyins}  # {hanzi}
 # 示例：
 # U+4E2D: zhōng,zhòng  # 中
+U+5666: yuě,huì  # 噦
 U+59B3: nǐ,nǎi  # 妳
 U+7F57: luó  # 罗
+U+8BB8: xǔ,hǔ  # 许
 U+94AD: tǒu,dǒu  # 钭
+U+9E00: chǔ,zhú,chù  # 鸀
 U+E815: yè  # 
 U+E816: zuǒ,yǒu  # 
 U+E81B: zhòu,zhū  # 
