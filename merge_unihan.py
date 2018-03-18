@@ -77,6 +77,10 @@ if __name__ == '__main__':
     with open('kMandarin_8105.txt') as fp:
         adjust_pinyin_map = parse_pinyins(fp)
         extend_pinyins(raw_pinyin_map, adjust_pinyin_map)
+    with open('kMandarin_overwrite.txt') as fp:
+        _map = parse_pinyins(fp)
+        extend_pinyins(adjust_pinyin_map, _map)
+        extend_pinyins(raw_pinyin_map, adjust_pinyin_map)
     with open('kMandarin.txt') as fp:
         _map = parse_pinyins(fp)
         extend_pinyins(adjust_pinyin_map, _map)
