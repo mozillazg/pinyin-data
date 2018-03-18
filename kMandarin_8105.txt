@@ -6186,7 +6186,7 @@ U+8BB9: é  # 讹
 U+8BBA: lùn  # 论
 U+8BBB: xiōng  # 讻
 U+8BBC: sòng  # 讼
-U+8BBD: fèng  # 讽 -> fěng
+U+8BBD: fěng  # 讽
 U+8BBE: shè  # 设
 U+8BBF: fǎng  # 访
 U+8BC0: jué  # 诀
@@ -6195,7 +6195,7 @@ U+8BC2: gǔ  # 诂
 U+8BC3: hē  # 诃
 U+8BC4: píng  # 评
 U+8BC5: zǔ  # 诅
-U+8BC6: shì  # 识 -> shí
+U+8BC6: shí  # 识
 U+8BC7: xiòng  # 诇
 U+8BC8: zhà  # 诈
 U+8BC9: sù  # 诉
