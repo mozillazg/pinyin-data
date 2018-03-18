@@ -1,5 +1,12 @@
 # ChangeLog
 
+## 0.5.0 (2018-03-18):
+
+* 更新 Unihan 数据版本为 10.0.0 via [#19][#19]
+* 新增 kMandarin_overwrite.txt 用于手工纠正 kMandarin.txt 中有误的拼音数据 via [#21][#21]
+* 更正 `讽`、`识` 的最常用读音 via [#20][#20]
+* 更正 埔,彷,珖,U+275C8 的常用发音 [635b238c4](https://github.com/mozillazg/pinyin-data/commit/635b238c4d21e55d8fd66299c8da3ae555253b3a)
+
 
 ## 0.4.1 (2017-02-12):
 
@@ -39,3 +46,6 @@
 [@Artoria2e5]: https://github.com/Artoria2e5
 [#9]: https://github.com/mozillazg/pinyin-data/pull/9
 [#11]: https://github.com/mozillazg/pinyin-data/pull/11
+[#19]: https://github.com/mozillazg/pinyin-data/pull/19
+[#20]: https://github.com/mozillazg/pinyin-data/pull/20
+[#21]: https://github.com/mozillazg/pinyin-data/pull/21
