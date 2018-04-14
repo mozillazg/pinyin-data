@@ -3,6 +3,8 @@
 # 数据格式：{code point}: {pinyins}  # {hanzi}
 # 示例：
 # U+4E2D: zhōng,zhòng  # 中
+U+5353: zhuó,zhuō  # 卓
+U+5565: shá,shà  # 啥
 U+5666: yuě,huì  # 噦
 U+59B3: nǐ,nǎi  # 妳
 U+7F57: luó  # 罗
