@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 未发布
+
+* 更正 `卓`、`啥` 的拼音数据。Thanks [shibingli](https://github.com/shibingli)
+
+
 ## 0.5.0 (2018-03-18):
 
 * 更新 Unihan 数据版本为 10.0.0 via [#19][#19]
