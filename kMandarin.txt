@@ -26657,6 +26657,9 @@ U+9FCE: tǎ  # 鿎
 U+9FCF: mài  # 鿏
 U+9FD4: gē  # 鿔
 U+9FD5: dān  # 鿕
+U+9FEB: ào  # 鿫
+U+9FEC: tián  # 鿬
+U+9FED: nǐ  # 鿭
 U+20000: hē  # 𠀀
 U+20001: qī  # 𠀁
 U+20003: qiě  # 𠀃
@@ -41215,3 +41218,8 @@ U+2B6E2: níng  # 𫛢
 U+2B6F6: chì  # 𫛶
 U+2B6F8: tí  # 𫛸
 U+2B851: yīn  # 𫡑
+U+2C4FC: tuí  # 𬓼
+U+2C62D: chēn  # 𬘭
+U+2C925: zhuàn  # 𬤥
+U+2CBCE: tuí  # 𬯎
+U+2CE23: xiān  # 𬸣

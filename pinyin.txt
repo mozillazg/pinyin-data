@@ -1,6 +1,6 @@
-# version: 0.5.0
+# version: 0.5.1
 # source: https://github.com/mozillazg/pinyin-data
-U+3007: líng  # 〇
+U+3007: líng,yuán,xīng  # 〇
 U+3400: qiū  # 㐀
 U+3401: tiàn  # 㐁
 U+3404: kuà  # 㐄
@@ -7126,7 +7126,7 @@ U+534F: xié  # 协
 U+5350: wàn  # 卐
 U+5351: bēi,bǐ,bì,pí,bān  # 卑
 U+5352: zú,cù,cuì  # 卒
-U+5353: zhuō  # 卓
+U+5353: zhuó,zhuō  # 卓
 U+5354: xié  # 協
 U+5355: dān,chán,shàn  # 单
 U+5356: mài  # 卖
@@ -7656,7 +7656,7 @@ U+5561: fēi,pèi,pái,pēi,bài  # 啡
 U+5562: liǎng,yīng  # 啢
 U+5563: xián  # 啣
 U+5564: pí  # 啤
-U+5565: shà  # 啥
+U+5565: shá,shà  # 啥
 U+5566: la,lā  # 啦
 U+5567: zé  # 啧
 U+5568: yīng,qíng  # 啨
@@ -26663,6 +26663,9 @@ U+9FCE: tǎ  # 鿎
 U+9FCF: mài  # 鿏
 U+9FD4: gē  # 鿔
 U+9FD5: dān  # 鿕
+U+9FEB: ào  # 鿫
+U+9FEC: tián  # 鿬
+U+9FED: nǐ  # 鿭
 U+E815: yè  # 
 U+E816: zuǒ,yǒu  # 
 U+E818: gǔn  # 
@@ -41365,6 +41368,7 @@ U+2C364: xún  # 𬍤
 U+2C488: què  # 𬒈
 U+2C494: gěng  # 𬒔
 U+2C497: lán  # 𬒗
+U+2C4FC: tuí  # 𬓼
 U+2C542: gōng  # 𬕂
 U+2C613: xún  # 𬘓
 U+2C618: dǎn  # 𬘘
@@ -41372,7 +41376,7 @@ U+2C621: yīn  # 𬘡
 U+2C629: tīng  # 𬘩
 U+2C62B: huán  # 𬘫
 U+2C62C: qiàn  # 𬘬
-U+2C62D: lín  # 𬘭
+U+2C62D: lín,chēn  # 𬘭
 U+2C62F: zhǔn  # 𬘯
 U+2C642: yǎn  # 𬙂
 U+2C64A: mò  # 𬙊
@@ -41389,6 +41393,7 @@ U+2C8F3: hěn  # 𬣳
 U+2C907: yīn  # 𬤇
 U+2C90A: shì  # 𬤊
 U+2C91D: huì  # 𬤝
+U+2C925: zhuàn  # 𬤥
 U+2CA02: qí  # 𬨂
 U+2CA0E: yóu  # 𬨎
 U+2CA7D: xún  # 𬩽
