@@ -11011,3 +11011,7 @@ U+2B695: shī  # 𫚕
 U+2B6DE: jué  # 𫛞
 U+2B6F6: chì  # 𫛶
 U+2B6F8: tí  # 𫛸
+U+2C4FC: tuí  # 𬓼
+U+2C925: zhuàn  # 𬤥
+U+2CBCE: tuí  # 𬯎
+U+2CE23: xiān  # 𬸣
