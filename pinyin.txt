@@ -19666,7 +19666,7 @@ U+8453: hóng  # 葓
 U+8454: hóu  # 葔
 U+8455: yàn  # 葕
 U+8456: tū  # 葖
-U+8457: zhe,zhù,chú,zhuó,zhāo,zháo  # 著
+U+8457: zhù,zhe,chú,zhuó,zhāo,zháo  # 著
 U+8458: zī  # 葘
 U+8459: xiāng  # 葙
 U+845A: rèn,shèn  # 葚

@@ -1,5 +1,10 @@
 # ChangeLog
 
+## [0.6.1] (2018-08-04)
+
+* 修改 `著` 的默认读音为 `zhù`
+
+
 ## [0.6.0] (2018-07-08)
 
 * 更新 Unihan 数据版本为 11.0.0 via [68dc169]
@@ -71,3 +76,4 @@
 [0.5.0]: https://github.com/mozillazg/pinyin-data/compare/v0.4.1...v0.5.0
 [0.5.1]: https://github.com/mozillazg/pinyin-data/compare/v0.5.0...v0.5.1
 [0.6.0]: https://github.com/mozillazg/pinyin-data/compare/v0.5.1...v0.6.0
+[0.6.1]: https://github.com/mozillazg/pinyin-data/compare/v0.6.0...v0.6.1
