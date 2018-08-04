@@ -112,6 +112,6 @@ if __name__ == '__main__':
     assert set(overwrite_pinyin_map.keys()) - code_set == set()
     assert set(pua_pinyin_map.keys()) - code_set == set()
     with open('pinyin.txt', 'w') as fp:
-        fp.write('# version: 0.6.0\n')
+        fp.write('# version: 0.6.1\n')
         fp.write('# source: https://github.com/mozillazg/pinyin-data\n')
         save_data(new_pinyin_map, fp)
