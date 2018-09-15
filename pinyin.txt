@@ -22221,7 +22221,7 @@ U+8E4E: diān  # 蹎
 U+8E4F: tí  # 蹏
 U+8E50: jí  # 蹐
 U+8E51: niè  # 蹑
-U+8E52: mán,pán  # 蹒
+U+8E52: pán,mán  # 蹒
 U+8E53: liū,liù  # 蹓
 U+8E54: zàn,cán  # 蹔
 U+8E55: bì  # 蹕
