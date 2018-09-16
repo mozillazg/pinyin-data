@@ -1,8 +1,13 @@
 # ChangeLog
 
+## [0.6.2] (2018-09-16)
+
+* 修改 `蹒` 的最常用读音为 `pán`
+
+
 ## [0.6.1] (2018-08-04)
 
-* 修改 `著` 的默认读音为 `zhù`
+* 修改 `著` 的默认读音为 `zhù` via [8802f31]
 
 
 ## [0.6.0] (2018-07-08)
@@ -68,6 +73,7 @@
 [#26]: https://github.com/mozillazg/pinyin-data/pull/26
 [#27]: https://github.com/mozillazg/pinyin-data/pull/27
 [68dc169]: https://github.com/mozillazg/pinyin-data/commit/68dc169c3f0f02cb9bf53290edab2d2d2463e0c5
+[8802f31]: https://github.com/mozillazg/pinyin-data/commit/8802f31e0e65c6e34a497adb55993425741a9d41
 
 [0.2.0]: https://github.com/mozillazg/pinyin-data/compare/v0.1.0...v0.2.0
 [0.3.0]: https://github.com/mozillazg/pinyin-data/compare/v0.2.0...v0.3.0
@@ -77,3 +83,4 @@
 [0.5.1]: https://github.com/mozillazg/pinyin-data/compare/v0.5.0...v0.5.1
 [0.6.0]: https://github.com/mozillazg/pinyin-data/compare/v0.5.1...v0.6.0
 [0.6.1]: https://github.com/mozillazg/pinyin-data/compare/v0.6.0...v0.6.1
+[0.6.2]: https://github.com/mozillazg/pinyin-data/compare/v0.6.1...v0.6.2
