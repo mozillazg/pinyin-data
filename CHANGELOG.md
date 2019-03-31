@@ -1,5 +1,11 @@
 # ChangeLog
 
+
+## [0.7.0] (2019-xx-yy)
+
+* 更新 Unihan 数据版本为 12.0.0
+
+
 ## [0.6.2] (2018-09-16)
 
 * 修改 `蹒` 的最常用读音为 `pán`
@@ -84,3 +90,4 @@
 [0.6.0]: https://github.com/mozillazg/pinyin-data/compare/v0.5.1...v0.6.0
 [0.6.1]: https://github.com/mozillazg/pinyin-data/compare/v0.6.0...v0.6.1
 [0.6.2]: https://github.com/mozillazg/pinyin-data/compare/v0.6.1...v0.6.2
+[0.7.0]: https://github.com/mozillazg/pinyin-data/compare/v0.6.2...v0.7.0
