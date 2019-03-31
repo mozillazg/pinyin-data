@@ -39,3 +39,4 @@ U+E854: zhuó  # 
 U+E864: luán  # 
 U+241FE: yíng  # 𤇾
 U+275C8: nú  # 𧗈
+U+47C1: xiāo,chāo  # 䟁
