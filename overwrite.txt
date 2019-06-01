@@ -40,3 +40,8 @@ U+E864: luán  # 
 U+241FE: yíng  # 𤇾
 U+275C8: nú  # 𧗈
 U+47C1: xiāo,chāo  # 䟁
+U+9EBF: mí  # 麿
+U+7C17: zhù  # 簗
+U+8279: cǎo  # 艹
+U+88CF: lǐ  # 裏
+U+88E1: lǐ  # 裡

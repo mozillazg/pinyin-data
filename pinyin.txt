@@ -17554,7 +17554,7 @@ U+7C13: diāo  # 簓
 U+7C14: suō  # 簔
 U+7C15: lè  # 簕
 U+7C16: duàn  # 簖
-U+7C17: liang  # 簗
+U+7C17: zhù  # 簗
 U+7C18: xiāo  # 簘
 U+7C19: bó  # 簙
 U+7C1A: mì  # 簚
@@ -19188,7 +19188,7 @@ U+8275: pīng  # 艵
 U+8276: yàn  # 艶
 U+8277: yàn  # 艷
 U+8278: cǎo  # 艸
-U+8279: cao  # 艹
+U+8279: cǎo  # 艹
 U+827A: yì  # 艺
 U+827B: lè,jí  # 艻
 U+827C: tīng,dǐng  # 艼
@@ -20810,7 +20810,7 @@ U+88CB: shù  # 裋
 U+88CC: jiá,jiā,xié  # 裌
 U+88CD: kǔn  # 裍
 U+88CE: chéng,chěng  # 裎
-U+88CF: lǐ,li  # 裏
+U+88CF: lǐ  # 裏
 U+88D0: juān  # 裐
 U+88D1: shēn  # 裑
 U+88D2: póu,bāo  # 裒
@@ -20828,7 +20828,7 @@ U+88DD: zhuāng  # 裝
 U+88DE: shuì  # 裞
 U+88DF: shā  # 裟
 U+88E0: qún  # 裠
-U+88E1: lǐ,li  # 裡
+U+88E1: lǐ  # 裡
 U+88E2: lián,shāo  # 裢
 U+88E3: liǎn  # 裣
 U+88E4: kù  # 裤
@@ -26426,7 +26426,7 @@ U+9EBB: má,mā  # 麻
 U+9EBC: me  # 麼
 U+9EBD: mó,má,ma,me  # 麽
 U+9EBE: huī  # 麾
-U+9EBF: mo  # 麿
+U+9EBF: mí  # 麿
 U+9EC0: zōu  # 黀
 U+9EC1: nún  # 黁
 U+9EC2: fén  # 黂

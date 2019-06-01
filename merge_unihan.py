@@ -63,6 +63,7 @@ def extend_pinyins(old_map, new_map, only_no_exists=False):
         else:
             old_map.setdefault(code, []).extend(pinyins)
 
+
 if __name__ == '__main__':
     raw_pinyin_map = {}
     with open('kHanyuPinyin.txt') as fp:
@@ -87,13 +88,14 @@ if __name__ == '__main__':
         extend_pinyins(raw_pinyin_map, adjust_pinyin_map)
     with open('kHanyuPinlu.txt') as fp:
         khanyupinyinlu = parse_pinyins(fp)
-        # 之所以只增加不存在的拼音数据而不更新已有的数据
-        # 是因为 kHanyuPinlu 的拼音数据中存在一部分不需要的轻声拼音
-        # 以及部分音调标错了位置，比如把 ``ǒu`` 标成了 ``oǔ``
-        extend_pinyins(raw_pinyin_map, khanyupinyinlu, only_no_exists=True)
+        extend_pinyins(adjust_pinyin_map, _map)
+        extend_pinyins(raw_pinyin_map, adjust_pinyin_map)
     with open('GBK_PUA.txt') as fp:
         pua_pinyin_map = parse_pinyins(fp)
         extend_pinyins(raw_pinyin_map, pua_pinyin_map)
+    with open('kanji.txt') as fp:
+        _map = parse_pinyins(fp)
+        extend_pinyins(raw_pinyin_map, _map, only_no_exists=True)
 
     with open('overwrite.txt') as fp:
         overwrite_pinyin_map = parse_pinyins(fp)

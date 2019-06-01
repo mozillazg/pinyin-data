@@ -1,5 +1,10 @@
 # ChangeLog
 
+## [0.8.0] (2019-06-01)
+
+* 增加 `kanji.txt` 日本自造汉字的拼音数据 via [#32]. Thanks [@LuoZijun](https://github.com/LuoZijun)
+* 去掉几个有误的轻声数据
+
 
 ## [0.7.0] (2019-03-31)
 
@@ -23,7 +28,7 @@
 
 ## [0.5.1] (2018-04-19)
 
-* 更正 `卓`、`啥` 的拼音数据 via [#26] 。Thanks [shibingli](https://github.com/shibingli)
+* 更正 `卓`、`啥` 的拼音数据 via [#26] 。Thanks [@shibingli](https://github.com/shibingli)
 * 更新 `〇` 的拼音数据 via [#27]
 
 
@@ -80,6 +85,7 @@
 [#27]: https://github.com/mozillazg/pinyin-data/pull/27
 [68dc169]: https://github.com/mozillazg/pinyin-data/commit/68dc169c3f0f02cb9bf53290edab2d2d2463e0c5
 [8802f31]: https://github.com/mozillazg/pinyin-data/commit/8802f31e0e65c6e34a497adb55993425741a9d41
+[#32]: https://github.com/mozillazg/pinyin-data/pull/32
 
 [0.2.0]: https://github.com/mozillazg/pinyin-data/compare/v0.1.0...v0.2.0
 [0.3.0]: https://github.com/mozillazg/pinyin-data/compare/v0.2.0...v0.3.0
@@ -91,3 +97,4 @@
 [0.6.1]: https://github.com/mozillazg/pinyin-data/compare/v0.6.0...v0.6.1
 [0.6.2]: https://github.com/mozillazg/pinyin-data/compare/v0.6.1...v0.6.2
 [0.7.0]: https://github.com/mozillazg/pinyin-data/compare/v0.6.2...v0.7.0
+[0.8.0]: https://github.com/mozillazg/pinyin-data/compare/v0.7.0...v0.8.0
