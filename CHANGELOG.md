@@ -3,6 +3,7 @@
 ## [0.8.0] (2019-06-01)
 
 * 增加 `kanji.txt` 日本自造汉字的拼音数据 via [#32]. Thanks [@LuoZijun](https://github.com/LuoZijun)
+* 去掉几个有误的轻声数据
 
 
 ## [0.7.0] (2019-03-31)
