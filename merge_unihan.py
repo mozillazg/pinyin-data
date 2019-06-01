@@ -93,6 +93,9 @@ if __name__ == '__main__':
     with open('GBK_PUA.txt') as fp:
         pua_pinyin_map = parse_pinyins(fp)
         extend_pinyins(raw_pinyin_map, pua_pinyin_map)
+    with open('kanji.txt') as fp:
+        _map = parse_pinyins(fp)
+        extend_pinyins(raw_pinyin_map, _map, only_no_exists=True)
 
     with open('overwrite.txt') as fp:
         overwrite_pinyin_map = parse_pinyins(fp)

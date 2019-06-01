@@ -17554,7 +17554,7 @@ U+7C13: diāo  # 簓
 U+7C14: suō  # 簔
 U+7C15: lè  # 簕
 U+7C16: duàn  # 簖
-U+7C17: liang  # 簗
+U+7C17: zhù  # 簗
 U+7C18: xiāo  # 簘
 U+7C19: bó  # 簙
 U+7C1A: mì  # 簚
@@ -26426,7 +26426,7 @@ U+9EBB: má,mā  # 麻
 U+9EBC: me  # 麼
 U+9EBD: mó,má,ma,me  # 麽
 U+9EBE: huī  # 麾
-U+9EBF: mo  # 麿
+U+9EBF: mí  # 麿
 U+9EC0: zōu  # 黀
 U+9EC1: nún  # 黁
 U+9EC2: fén  # 黂
