@@ -6793,7 +6793,7 @@ U+5202: dāo  # 刂
 U+5203: rèn  # 刃
 U+5204: rèn  # 刄
 U+5205: chuāng  # 刅
-U+5206: fēn,fèn,fén,bàn  # 分
+U+5206: fēn,fèn,fén  # 分
 U+5207: qiè,qiē,qì  # 切
 U+5208: yì  # 刈
 U+5209: jī  # 刉
@@ -22644,7 +22644,7 @@ U+8FF5: dòng  # 迵
 U+8FF6: yòu  # 迶
 U+8FF7: mí,mì  # 迷
 U+8FF8: bèng  # 迸
-U+8FF9: jī  # 迹
+U+8FF9: jì,jī  # 迹
 U+8FFA: nǎi  # 迺
 U+8FFB: yí  # 迻
 U+8FFC: jié  # 迼

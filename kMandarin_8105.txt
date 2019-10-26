@@ -6633,7 +6633,7 @@ U+8FF0: shù  # 述
 U+8FF3: jìng  # 迳
 U+8FF7: mí  # 迷
 U+8FF8: bèng  # 迸
-U+8FF9: jī  # 迹 -> jì
+U+8FF9: jì  # 迹
 U+8FFA: nǎi  # 迺
 U+8FFD: zhuī  # 追
 U+9000: tuì  # 退
