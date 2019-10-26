@@ -1,5 +1,10 @@
 # ChangeLog
 
+## [0.8.1] (2019-10-26)
+
+* 修正 `迹` 和 `分` 的读音。
+
+
 ## [0.8.0] (2019-06-01)
 
 * 增加 `kanji.txt` 日本自造汉字的拼音数据 via [#32]. Thanks [@LuoZijun](https://github.com/LuoZijun)
