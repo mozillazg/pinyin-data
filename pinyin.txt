@@ -21528,7 +21528,7 @@ U+8B99: huān,huàn  # 讙
 U+8B9A: zàn  # 讚
 U+8B9B: yì  # 讛
 U+8B9C: dǎng,dàng  # 讜
-U+8B9D: zhān,zhán  # 讝
+U+8B9D: zhán,zhān  # 讝
 U+8B9E: yàn  # 讞
 U+8B9F: dú  # 讟
 U+8BA0: yán  # 讠
@@ -27338,6 +27338,7 @@ U+208D5: jūn  # 𠣕
 U+208D6: xuán  # 𠣖
 U+208D8: zhōu  # 𠣘
 U+208E0: kuì  # 𠣠
+U+208E1: fèng  # 𠣡
 U+208EA: qú  # 𠣪
 U+208EB: shào  # 𠣫
 U+208EC: sǔn  # 𠣬
@@ -33494,6 +33495,7 @@ U+25890: gāo  # 𥢐
 U+25891: gǎo,hào  # 𥢑
 U+25892: láo,lào  # 𥢒
 U+25894: zhuó,zhào  # 𥢔
+U+2589F: hù  # 𥢟
 U+258A2: tuí  # 𥢢
 U+258A6: bì  # 𥢦
 U+258A7: jú,yì  # 𥢧
@@ -33524,6 +33526,7 @@ U+258EE: zhì  # 𥣮
 U+258EF: yōu  # 𥣯
 U+258F0: biǎn  # 𥣰
 U+258F8: mù  # 𥣸
+U+258F9: ràn  # 𥣹
 U+258FA: ràn  # 𥣺
 U+25902: niǎo  # 𥤂
 U+2590A: quán  # 𥤊
@@ -37883,6 +37886,7 @@ U+287A9: què  # 𨞩
 U+287AA: chóu,shòu  # 𨞪
 U+287AB: méng  # 𨞫
 U+287B2: shēn  # 𨞲
+U+287B3: qú  # 𨞳
 U+287B6: qiāo  # 𨞶
 U+287B7: cán  # 𨞷
 U+287BA: lì  # 𨞺
@@ -40465,6 +40469,7 @@ U+29FFA: wā  # 𩿺
 U+29FFD: tuó  # 𩿽
 U+29FFF: chú  # 𩿿
 U+2A001: gē  # 𪀁
+U+2A008: yuān  # 𪀈
 U+2A009: gē,kě  # 𪀉
 U+2A00A: qú  # 𪀊
 U+2A00F: jù,jiū  # 𪀏
