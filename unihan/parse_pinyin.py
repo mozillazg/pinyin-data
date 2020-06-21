@@ -9,6 +9,7 @@ def re_match_pinyin_line(kind):
         r'^U\+(?P<code>[0-9A-Z]+)\t{}\t(?P<pinyin>.+)$'.format(kind)
     )
 
+
 PINYIN = r'[^\d\.,]+'
 re_khanyupinyin = re.compile(r'''
     (?:\d{5}\.\d{2}0,)*\d{5}\.\d{2}0:
@@ -27,11 +28,17 @@ re_kxhc1983 = re.compile(r'''
 re_khanyupinlu = re.compile(r'''
     ()()({pinyin})\([0-9]+\)
 '''.format(pinyin=PINYIN), re.X)
+re_ktghz2013 = re.compile(r'''
+    ()()[0-9]{3}\.[0-9]{3}
+    (?:,[0-9]{3}\.[0-9]{3})*:
+    (%(pinyin)s)
+''' % ({'pinyin': PINYIN}), re.X)
 re_kinds_map = {
     'kHanyuPinyin': re_khanyupinyin,
     'kMandarin': re_kmandarin,
     'kXHC1983': re_kxhc1983,
     'kHanyuPinlu': re_khanyupinlu,
+    'kTGHZ2013': re_ktghz2013,
 }
 
 
@@ -84,10 +91,11 @@ def save_data(pinyins, writer):
         )
         writer.write(line)
 
+
 if __name__ == '__main__':
     with open('Unihan_Readings.txt') as fp:
         for kind in ('kHanyuPinyin', 'kMandarin',
-                     'kHanyuPinlu', 'kXHC1983'):
+                     'kHanyuPinlu', 'kXHC1983', 'kTGHZ2013'):
             fp.seek(0)
             with open('{}.txt'.format(kind), 'w') as writer:
                 pinyins = parse(fp.readlines(), kind=kind)
