@@ -86,6 +86,10 @@ if __name__ == '__main__':
         _map = parse_pinyins(fp)
         extend_pinyins(adjust_pinyin_map, _map)
         extend_pinyins(raw_pinyin_map, adjust_pinyin_map)
+    with open('kTGHZ2013.txt') as fp:
+        _map = parse_pinyins(fp)
+        extend_pinyins(adjust_pinyin_map, _map)
+        extend_pinyins(raw_pinyin_map, adjust_pinyin_map)
     with open('kHanyuPinlu.txt') as fp:
         khanyupinyinlu = parse_pinyins(fp)
         extend_pinyins(adjust_pinyin_map, _map)
