@@ -3,12 +3,17 @@
 # 数据格式：{code point}: {pinyins}  # {hanzi}
 # 示例：
 # U+4E2D: zhōng,zhòng  # 中
+U+4E3A: wéi,wèi  # 为
+U+5174: xīng,xìng  # 兴
 U+5353: zhuó,zhuō  # 卓
+U+54BD: yān,yàn,yè,yuān  # 咽
 U+5565: shá,shà  # 啥
 U+5666: yuě,huì  # 噦
 U+59B3: nǐ,nǎi  # 妳
+U+7F57: luó  # 罗
 U+8BB8: xǔ,hǔ  # 许
 U+94AD: tǒu,dǒu  # 钭
+U+957F: cháng,zhǎng  # 长
 U+9E00: chǔ,zhú,chù  # 鸀
 U+E815: yè  # 
 U+E816: zuǒ,yǒu  # 
