@@ -4282,7 +4282,7 @@ U+7622: bān  # 瘢
 U+7624: liú  # 瘤
 U+7625: chài  # 瘥
 U+7626: shòu  # 瘦
-U+7629: da  # 瘩 -> dá
+U+7629: dā  # 瘩 -> dá
 U+762A: biě  # 瘪 -> biē
 U+762B: tān  # 瘫
 U+762D: biāo  # 瘭
@@ -5002,7 +5002,7 @@ U+7EE5: suí  # 绥
 U+7EE6: tāo  # 绦
 U+7EE7: jì  # 继
 U+7EE8: tí  # 绨
-U+7EE9: jī  # 绩 -> jì
+U+7EE9: jì  # 绩
 U+7EEA: xù  # 绪
 U+7EEB: líng  # 绫
 U+7EED: xù  # 续
@@ -6225,7 +6225,7 @@ U+8BE0: quán  # 诠
 U+8BE1: guǐ  # 诡
 U+8BE2: xún  # 询
 U+8BE3: yì  # 诣
-U+8BE4: zhēng  # 诤 -> zhèng
+U+8BE4: zhèng  # 诤
 U+8BE5: gāi  # 该
 U+8BE6: xiáng  # 详
 U+8BE7: chà  # 诧
@@ -7448,7 +7448,7 @@ U+99A8: xīn  # 馨
 U+9A6C: mǎ  # 马
 U+9A6D: yù  # 驭
 U+9A6E: tuó  # 驮
-U+9A6F: xún  # 驯 -> xùn
+U+9A6F: xùn  # 驯
 U+9A70: chí  # 驰
 U+9A71: qū  # 驱
 U+9A72: rì  # 驲
@@ -7786,7 +7786,7 @@ U+9EEF: àn  # 黯
 U+9EF9: zhǐ  # 黹
 U+9EFB: fú  # 黻
 U+9EFC: fǔ  # 黼
-U+9EFE: miǎn  # 黾 -> mǐn
+U+9EFE: mǐn  # 黾
 U+9F0B: yuán  # 鼋
 U+9F0D: tuó  # 鼍
 U+9F0E: dǐng  # 鼎

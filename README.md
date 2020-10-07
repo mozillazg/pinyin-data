@@ -50,6 +50,7 @@
 * [China’s 通用规范汉字表 (Tōngyòng Guīfàn Hànzìbiǎo)](https://blogs.adobe.com/CCJKType/2014/03/china-8105.html)
 * [日本汉字的汉语读音规范](http://www.moe.gov.cn/s78/A19/yxs_left/moe_810/s230/201001/t20100115_75698.html)
 * [日本汉字的汉语普通话规范读音表- 维基百科](https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E6%B1%89%E5%AD%97#7_%E6%97%A5%E6%9C%AC%E6%B1%89%E5%AD%97%E7%9A%84%E6%B1%89%E8%AF%AD%E6%99%AE%E9%80%9A%E8%AF%9D%E8%A7%84%E8%8C%83%E8%AF%BB%E9%9F%B3%E8%A1%A8)
+* [漢語大字典（第二版）](http://www.ivantsoi.com/hydzd/index.html)
 
 [unihan]: http://www.unicode.org/charts/unihan.html
 
