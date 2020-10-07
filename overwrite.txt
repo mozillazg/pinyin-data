@@ -7,7 +7,6 @@ U+5353: zhuó,zhuō  # 卓
 U+5565: shá,shà  # 啥
 U+5666: yuě,huì  # 噦
 U+59B3: nǐ,nǎi  # 妳
-U+7F57: luó  # 罗
 U+8BB8: xǔ,hǔ  # 许
 U+94AD: tǒu,dǒu  # 钭
 U+9E00: chǔ,zhú,chù  # 鸀
@@ -51,3 +50,14 @@ U+2589F: hù  # 𥢟
 U+258F9: ràn  # 𥣹
 U+287B3: qú  # 𨞳
 U+2A008: yuān  # 𪀈
+U+9EFE: mǐn,miǎn,měng  # 黾
+U+55A3: xǔ  # 喣
+U+529A: zhú  # 劚
+U+532E: kuì,guì  # 匮
+U+9400: kuì,guì  # 鐀
+U+87AB: shì,zhē  # 螫
+U+5C82: qǐ,kǎi  # 岂
+U+534E: huá,huà,huā  # 华
+U+5455: ǒu,ōu,òu  # 呕
+U+4ECE: cóng,zòng  # 从
+U+513F: ér,er,rén  # 儿

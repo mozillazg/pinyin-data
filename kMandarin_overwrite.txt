@@ -63,3 +63,4 @@ U+29B5D: wǒ  # 𩭝
 U+2A048: zhuāng  # 𪁈
 U+2A2A2: shí  # 𪊢
 U+8B9D: zhán  # 讝
+U+3D14: jí  # 㴔
