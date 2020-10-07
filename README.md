@@ -37,6 +37,14 @@
 * `zdic.txt`: [汉典网](http://zdic.net) 的拼音数据（**可以修改**）
 
 
+## 修改数据
+
+* 上面标注了 **可以修改** 字样的文件都可以直接修改
+* 如果汉字的拼音不需要修改，只是调整第一个读音的话，可以直接修改 `kMandarin_8105.txt` 这个文件
+* 执行 `merge_unihan` 命令可以按照合并规则生成最新的 `pinyin.txt` 文件
+* 进入 unihan 目录，执行 `make update` 命令可以更新最新的 Unihan 数据
+
+
 ## 参考资料
 
 * [汉语拼音方案](http://www.moe.edu.cn/s78/A19/yxs_left/moe_810/s230/195802/t19580201_186000.html)
