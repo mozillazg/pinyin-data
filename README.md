@@ -5,7 +5,7 @@
 
 ## 数据介绍
 
-拼音数据的格式：
+拼音数据(/pinyin.txt)的格式：
 
     {code point}: {pinyins}  # {hanzi} {comments}
 
