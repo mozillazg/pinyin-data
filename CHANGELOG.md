@@ -1,5 +1,10 @@
 # ChangeLog
 
+## [0.10.1] (2020-11-22)
+
+* 调整 `地` 和 `謦` 的拼音顺序
+
+
 ## [0.10.0] (2020-10-07)
 
 * 新增 `kTGHZ2013.txt`: [Unihan Database][unihan] 中 [kTGHZ2013](http://www.unicode.org/reports/tr38/#kTGHZ2013) 部分的拼音数据（来源于《通用规范汉字字典》的拼音数据）
@@ -119,3 +124,4 @@
 [0.8.1]: https://github.com/mozillazg/pinyin-data/compare/v0.8.0...v0.8.1
 [0.9.0]: https://github.com/mozillazg/pinyin-data/compare/v0.8.1...v0.9.0
 [0.10.0]: https://github.com/mozillazg/pinyin-data/compare/v0.9.0...v0.10.0
+[0.10.1]: https://github.com/mozillazg/pinyin-data/compare/v0.10.0...v0.10.1
