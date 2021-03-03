@@ -1,5 +1,22 @@
 # ChangeLog
 
+## [0.10.1] (2020-11-22)
+
+* 调整 `地` 和 `謦` 的拼音顺序
+
+
+## [0.10.0] (2020-10-07)
+
+* 新增 `kTGHZ2013.txt`: [Unihan Database][unihan] 中 [kTGHZ2013](http://www.unicode.org/reports/tr38/#kTGHZ2013) 部分的拼音数据（来源于《通用规范汉字字典》的拼音数据）
+* 修正部分拼音的读音
+* 生成 `pinyin.txt` 时合并来自 `kTGHZ2013.txt` 的拼音数据
+
+
+## [0.9.0] (2020-06-06)
+
+* 更新 Unihan 数据版本为 13.0.0
+
+
 ## [0.8.1] (2019-10-26)
 
 * 修正 `迹` 和 `分` 的读音。
@@ -91,6 +108,7 @@
 [68dc169]: https://github.com/mozillazg/pinyin-data/commit/68dc169c3f0f02cb9bf53290edab2d2d2463e0c5
 [8802f31]: https://github.com/mozillazg/pinyin-data/commit/8802f31e0e65c6e34a497adb55993425741a9d41
 [#32]: https://github.com/mozillazg/pinyin-data/pull/32
+[unihan]: http://www.unicode.org/charts/unihan.html
 
 [0.2.0]: https://github.com/mozillazg/pinyin-data/compare/v0.1.0...v0.2.0
 [0.3.0]: https://github.com/mozillazg/pinyin-data/compare/v0.2.0...v0.3.0
@@ -103,3 +121,7 @@
 [0.6.2]: https://github.com/mozillazg/pinyin-data/compare/v0.6.1...v0.6.2
 [0.7.0]: https://github.com/mozillazg/pinyin-data/compare/v0.6.2...v0.7.0
 [0.8.0]: https://github.com/mozillazg/pinyin-data/compare/v0.7.0...v0.8.0
+[0.8.1]: https://github.com/mozillazg/pinyin-data/compare/v0.8.0...v0.8.1
+[0.9.0]: https://github.com/mozillazg/pinyin-data/compare/v0.8.1...v0.9.0
+[0.10.0]: https://github.com/mozillazg/pinyin-data/compare/v0.9.0...v0.10.0
+[0.10.1]: https://github.com/mozillazg/pinyin-data/compare/v0.10.0...v0.10.1
