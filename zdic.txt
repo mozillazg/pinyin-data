@@ -11284,7 +11284,7 @@ U+5EAF: bū  # 庯
 U+5EB0: bìng,píng  # 庰
 U+5EB1: chěng  # 庱
 U+5EB2: lái  # 庲
-U+5EB3: bēi,bì,pí  # 庳
+U+5EB3: bēi,bì,pí  # 庳
 U+5EB4: jī,cuò  # 庴
 U+5EB5: ān  # 庵
 U+5EB6: shù  # 庶
@@ -24027,7 +24027,7 @@ U+9076: rào  # 遶
 U+9077: qiān  # 遷
 U+9078: xuǎn  # 選
 U+9079: yù  # 遹
-U+907A: yí,wèi,suí  # 遺
+U+907A: yí,wèi,suí  # 遺
 U+907B: è  # 遻
 U+907C: liáo  # 遼
 U+907D: jù  # 遽
