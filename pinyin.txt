@@ -9897,7 +9897,7 @@ U+5E23: juǎn,juàn  # 帣
 U+5E24: rú  # 帤
 U+5E25: shuài  # 帥
 U+5E26: dài  # 带
-U+5E27: zhèng,zhēn  # 帧
+U+5E27: zhēn,zhèng  # 帧
 U+5E28: shuì  # 帨
 U+5E29: qiào  # 帩
 U+5E2A: zhēn  # 帪
