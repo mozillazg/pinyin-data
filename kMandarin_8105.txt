@@ -1804,7 +1804,7 @@ U+5E1C: zhì  # 帜
 U+5E1D: dì  # 帝
 U+5E21: píng  # 帡
 U+5E26: dài  # 带
-U+5E27: zhèng  # 帧 -> zhēn
+U+5E27: zhēn  # 帧
 U+5E28: shuì  # 帨
 U+5E2D: xí  # 席
 U+5E2E: bāng  # 帮
