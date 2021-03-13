@@ -1,5 +1,11 @@
 # ChangeLog
 
+## [0.10.2] (2021-03-13)
+
+* 修改 `帧` 的最常用读音为 `zhēn`
+* 修复 `zdic.txt` 中两个拼音字母 `è í` 使用不当的问题. Thanks [@Ace-Who](https://github.com/Ace-Who)
+
+
 ## [0.10.1] (2020-11-22)
 
 * 调整 `地` 和 `謦` 的拼音顺序
@@ -125,3 +131,4 @@
 [0.9.0]: https://github.com/mozillazg/pinyin-data/compare/v0.8.1...v0.9.0
 [0.10.0]: https://github.com/mozillazg/pinyin-data/compare/v0.9.0...v0.10.0
 [0.10.1]: https://github.com/mozillazg/pinyin-data/compare/v0.10.0...v0.10.1
+[0.10.2]: https://github.com/mozillazg/pinyin-data/compare/v0.10.1...v0.10.2
