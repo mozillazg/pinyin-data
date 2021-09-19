@@ -6252,7 +6252,7 @@ U+8BFD: fěi  # 诽
 U+8BFE: kè  # 课
 U+8BFF: wěi  # 诿
 U+8C00: yú  # 谀
-U+8C01: shéi  # 谁 -> shuí
+U+8C01: shuí  # 谁
 U+8C02: shěn  # 谂
 U+8C03: diào  # 调 -> tiáo
 U+8C04: chǎn  # 谄
