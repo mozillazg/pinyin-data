@@ -16,11 +16,7 @@
         # 注释
         U+4E2D: zhōng,zhòng  # 中
 
-
-[Unihan Database][unihan] 数据版本：
-
-> Date: 2020-02-18 18:27:33 GMT [JHJ]     
-> Unicode version: 13.0.0
+拼音文件介绍：
 
 * `kTGHZ2013.txt`: [Unihan Database][unihan] 中 [kTGHZ2013](http://www.unicode.org/reports/tr38/#kTGHZ2013) 部分的拼音数据（来源于《通用规范汉字字典》的拼音数据）
 * `kHanyuPinyin.txt`: [Unihan Database][unihan] 中 [kHanyuPinyin](http://www.unicode.org/reports/tr38/#kHanyuPinyin) 部分的拼音数据（来源于《漢語大字典》的拼音数据）
@@ -35,6 +31,13 @@
 * `overwrite.txt`: 手工纠正的拼音数据（**可以修改**）
 * `pinyin.txt`: 合并上述文件后的拼音数据
 * `zdic.txt`: [汉典网](http://zdic.net) 的拼音数据（**可以修改**）
+* `cc_cedict.txt`: 根据 [cc-cedict.org](https://cc-cedict.org/) 的词语拼音数据生成的单个汉字拼音数据
+
+
+[Unihan Database][unihan] 数据版本：
+
+> Date: 2021-08-06 16:32:36 GMT [JHJ]
+> Unicode version: 14.0.0
 
 
 ## 修改数据
