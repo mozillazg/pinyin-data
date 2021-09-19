@@ -21,4 +21,4 @@ cc_cedict:
 	cd tools && \
     git submodule update && \
     python python-pinyin/gen_phrases_dict.py phrase-pinyin-data/cc_cedict.txt cc_cedict.py && \
-    python gen_cc_cedict.py > cc_cedict.txt
+    python gen_cc_cedict.py > ../cc_cedict.txt
