@@ -35,6 +35,7 @@
 * `overwrite.txt`: 手工纠正的拼音数据（**可以修改**）
 * `pinyin.txt`: 合并上述文件后的拼音数据
 * `zdic.txt`: [汉典网](http://zdic.net) 的拼音数据（**可以修改**）
+* `cc_cedict.txt`: 根据 [cc-cedict.org](https://cc-cedict.org/) 的词语拼音数据生成的单个汉字拼音数据
 
 
 ## 修改数据
