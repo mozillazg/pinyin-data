@@ -1,4 +1,4 @@
-# version: 0.10.2
+# version: 0.11.0
 # source: https://github.com/mozillazg/pinyin-data
 U+3007: líng,yuán,xīng  # 〇
 U+3400: qiū  # 㐀
