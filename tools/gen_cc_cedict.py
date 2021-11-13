@@ -37,6 +37,8 @@ def main():
     for han, counter in sorted(han_counter.items(), key=lambda x: ord(x[0])):
         code = han_to_code(han)
         pinyin = ','.join([x[0] for x in counter.most_common()])
+        if pinyin in ['xx']:
+            continue
         print('{0}: {1}  # {2}'.format(code, pinyin, han))
 
 
