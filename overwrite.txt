@@ -61,3 +61,4 @@ U+534E: huá,huà,huā  # 华
 U+5455: ǒu,ōu,òu  # 呕
 U+4ECE: cóng,zòng  # 从
 U+513F: ér,er,rén  # 儿
+U+7793: fèn  # 瞓
