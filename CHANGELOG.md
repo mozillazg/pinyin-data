@@ -1,6 +1,12 @@
 # ChangeLog
 
 
+## [0.12.0] (2021-11-13)
+
+* 生成最新的 `cc_cedict.txt` 文件
+* 修正 `霰` `咁` `瞓` 的拼音
+
+
 ## [0.11.0] (2021-09-19)
 
 * 新增 `cc_cedict.txt`: 根据 [cc-cedict.org](https://cc-cedict.org/) 的词语拼音数据生成的单个汉字拼音数据
@@ -140,3 +146,4 @@
 [0.10.1]: https://github.com/mozillazg/pinyin-data/compare/v0.10.0...v0.10.1
 [0.10.2]: https://github.com/mozillazg/pinyin-data/compare/v0.10.1...v0.10.2
 [0.11.0]: https://github.com/mozillazg/pinyin-data/compare/v0.10.2...v0.11.0
+[0.12.0]: https://github.com/mozillazg/pinyin-data/compare/v0.11.0...v0.12.0

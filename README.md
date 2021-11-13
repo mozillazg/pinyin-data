@@ -69,3 +69,5 @@
 ## 相关项目
 
 * [mozillazg/phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data): 词语拼音数据
+* [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin): 汉字转拼音(pypinyin)
+* [mozillazg/pypinyin-dict](https://github.com/mozillazg/pypinyin-dict): 在 pypinyin 项目中使用 pinyin-data 里不同数据文件里的数据
