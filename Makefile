@@ -14,4 +14,10 @@ pua:
 
 .PHONY: check
 check:
-	-rg 'ɡ|ɑ'
+	-rg 'ɡ|ɑ|í|è'
+
+.PHONY: cc_cedict
+cc_cedict:
+	cd tools && \
+    python python-pinyin/gen_phrases_dict.py phrase-pinyin-data/cc_cedict.txt cc_cedict.py && \
+    python gen_cc_cedict.py > ../cc_cedict.txt
