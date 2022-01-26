@@ -1,5 +1,24 @@
 # ChangeLog
 
+
+## [0.12.0] (2021-11-13)
+
+* 生成最新的 `cc_cedict.txt` 文件
+* 修正 `霰` `咁` `瞓` 的拼音
+
+
+## [0.11.0] (2021-09-19)
+
+* 新增 `cc_cedict.txt`: 根据 [cc-cedict.org](https://cc-cedict.org/) 的词语拼音数据生成的单个汉字拼音数据
+* 更新 Unihan 数据版本为 14.0.0
+
+
+## [0.10.2] (2021-03-13)
+
+* 修改 `帧` 的最常用读音为 `zhēn`
+* 修复 `zdic.txt` 中两个拼音字母 `è í` 使用不当的问题. Thanks [@Ace-Who](https://github.com/Ace-Who)
+
+
 ## [0.10.1] (2020-11-22)
 
 * 调整 `地` 和 `謦` 的拼音顺序
@@ -125,3 +144,6 @@
 [0.9.0]: https://github.com/mozillazg/pinyin-data/compare/v0.8.1...v0.9.0
 [0.10.0]: https://github.com/mozillazg/pinyin-data/compare/v0.9.0...v0.10.0
 [0.10.1]: https://github.com/mozillazg/pinyin-data/compare/v0.10.0...v0.10.1
+[0.10.2]: https://github.com/mozillazg/pinyin-data/compare/v0.10.1...v0.10.2
+[0.11.0]: https://github.com/mozillazg/pinyin-data/compare/v0.10.2...v0.11.0
+[0.12.0]: https://github.com/mozillazg/pinyin-data/compare/v0.11.0...v0.12.0

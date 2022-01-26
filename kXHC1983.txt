@@ -10997,10 +10997,11 @@ U+2B300: jī  # 𫌀
 U+2B328: luó  # 𫌨
 U+2B3CB: juē,qiāo  # 𫏋
 U+2B404: yuè  # 𫐄
-U+2B413: bù  # 𫐓
+U+2B413: róu  # 𫐓
 U+2B4E9: cōng  # 𫓩
 U+2B50E: jué  # 𫔎
 U+2B5E0: zhāng  # 𫗠
+U+2B5E6: bù  # 𫗦
 U+2B5E7: sù  # 𫗧
 U+2B5EE: huáng  # 𫗮
 U+2B624: ái  # 𫘤
