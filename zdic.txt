@@ -8051,7 +8051,7 @@ U+520E: wěn  # 刎
 U+520F: jī  # 刏
 U+5210: dǎn  # 刐
 U+5211: xíng  # 刑
-U+5212: huá,huà,huai,guò,guǒ  # 划
+U+5212: huá,huà,huai,guò,guǒ  # 划
 U+5213: wán  # 刓
 U+5214: jué  # 刔
 U+5215: lí  # 刕
