@@ -1,5 +1,11 @@
 # ChangeLog
 
+## [0.13.0] (2022-07-30)
+
+* 修正：两个拼音字母 ò ǒ 使用不当，替换为文件中统一使用的 ò ǒ, 详见 [#47]
+* 生成最新的 `cc_cedict.txt` 文件
+* `甚` 的最常用读音改为 `shèn`
+
 
 ## [0.12.0] (2021-11-13)
 
@@ -124,6 +130,7 @@
 [#21]: https://github.com/mozillazg/pinyin-data/pull/21
 [#26]: https://github.com/mozillazg/pinyin-data/pull/26
 [#27]: https://github.com/mozillazg/pinyin-data/pull/27
+[#47]: https://github.com/mozillazg/pinyin-data/pull/47
 [68dc169]: https://github.com/mozillazg/pinyin-data/commit/68dc169c3f0f02cb9bf53290edab2d2d2463e0c5
 [8802f31]: https://github.com/mozillazg/pinyin-data/commit/8802f31e0e65c6e34a497adb55993425741a9d41
 [#32]: https://github.com/mozillazg/pinyin-data/pull/32
@@ -147,3 +154,4 @@
 [0.10.2]: https://github.com/mozillazg/pinyin-data/compare/v0.10.1...v0.10.2
 [0.11.0]: https://github.com/mozillazg/pinyin-data/compare/v0.10.2...v0.11.0
 [0.12.0]: https://github.com/mozillazg/pinyin-data/compare/v0.11.0...v0.12.0
+[0.13.0]: https://github.com/mozillazg/pinyin-data/compare/v0.12.0...v0.13.0
