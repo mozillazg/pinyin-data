@@ -36,9 +36,9 @@
 
 [Unihan Database][unihan] 数据版本：
 
-> Date: 2022-08-01 16:36:07 GMT [JHJ]
+> Date: 2023-07-15 00:00:00 GMT [KL]
 >
-> Unicode version: 15.0.0
+> Unicode version: 15.1.0
 
 
 ## 修改数据
