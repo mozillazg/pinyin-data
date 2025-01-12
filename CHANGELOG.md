@@ -1,6 +1,12 @@
 # ChangeLog
 
 
+## [0.15.0] (2025-01-12)
+
+* 更新 zdict.xt: 修正几处错误注释，修正多余空格。 Thanks [@wanicca](https://github.com/wanicca)
+* 更新 Unihan 数据版本为 16.0.0
+
+
 ## [0.14.0] (2023-12-11)
 
 * 更新 Unihan 数据版本为 15.1.0
@@ -129,6 +135,7 @@
 
 
 [@Artoria2e5]: https://github.com/Artoria2e5
+[@wanicca]: https://github.com/wanicca
 [#9]: https://github.com/mozillazg/pinyin-data/pull/9
 [#11]: https://github.com/mozillazg/pinyin-data/pull/11
 [#19]: https://github.com/mozillazg/pinyin-data/pull/19
@@ -162,3 +169,4 @@
 [0.12.0]: https://github.com/mozillazg/pinyin-data/compare/v0.11.0...v0.12.0
 [0.13.0]: https://github.com/mozillazg/pinyin-data/compare/v0.12.0...v0.13.0
 [0.14.0]: https://github.com/mozillazg/pinyin-data/compare/v0.13.0...v0.14.0
+[0.15.0]: https://github.com/mozillazg/pinyin-data/compare/v0.14.0...v0.15.0
