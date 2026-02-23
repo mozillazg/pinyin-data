@@ -3295,7 +3295,7 @@ U+47B1: hú  # 䞱
 U+47B3: bó  # 䞳
 U+47B4: zhāo  # 䞴
 U+47B5: juě,zhuò  # 䞵
-U+47B6: tāng,tàng  # 䞶
+U+47B6: tì  # 䞶
 U+47B7: jué  # 䞷
 U+47B9: huáng  # 䞹
 U+47BA: chūn  # 䞺
@@ -30116,7 +30116,7 @@ U+27F2A: chì  # 𧼪
 U+27F2B: yù  # 𧼫
 U+27F2C: cuī  # 𧼬
 U+27F2D: sù,sōu,sǒu,qiù  # 𧼭
-U+27F2E: tì  # 𧼮
+U+27F2E: tāng,tàng  # 𧼮
 U+27F2F: shù,yú  # 𧼯
 U+27F30: zhá  # 𧼰
 U+27F31: fú,bí  # 𧼱

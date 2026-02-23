@@ -1,6 +1,11 @@
 # ChangeLog
 
 
+## [0.16.0] (2026-xx-yy)
+
+* 更新 Unihan 数据版本为 17.0.0
+
+
 ## [0.15.0] (2025-01-12)
 
 * 更新 zdict.xt: 修正几处错误注释，修正多余空格。 Thanks [@wanicca](https://github.com/wanicca)
