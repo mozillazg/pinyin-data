@@ -1,20 +1,22 @@
+PYTHON ?= python3
+
 .PHONY: help
 help:
 	@echo "parse		parse Unihan database "
 	@echo "update		update Unihan database"
 	@echo "diff		diff between Unihan data and parsed data"
 
-.PHONY:parse
+.PHONY: parse
 parse:
-	@python parse_pinyin.py
+	@$(PYTHON) parse_pinyin.py
 
-.PHONY:update
+.PHONY: update
 update:
 	-rm Unihan*
-	wget ftp://ftp.unicode.org/Public/UNIDATA/Unihan.zip -O Unihan.zip
+	wget https://www.unicode.org/Public/UNIDATA/Unihan.zip -O Unihan.zip
 	unzip Unihan.zip
-	python parse_pinyin.py
+	$(PYTHON) parse_pinyin.py
 
-.PHONY:diff
+.PHONY: diff
 diff:
 	@bash diff.sh
