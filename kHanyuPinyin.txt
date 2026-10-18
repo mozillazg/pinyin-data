@@ -8346,6 +8346,7 @@ U+6282: kuáng,wǎng  # 抂
 U+6283: biàn  # 抃
 U+6284: chāo,suō,chào,chǎo  # 抄
 U+6286: wěn  # 抆
+U+6287: hú,gǔ  # 抇
 U+6288: yuè  # 抈
 U+6289: jué  # 抉
 U+628A: bǎ,bà,pá  # 把
@@ -23154,7 +23155,6 @@ U+22A88: nán  # 𢪈
 U+22A8B: pěng,féng,bàng  # 𢪋
 U+22A8D: jié,jiā  # 𢪍
 U+22A8E: xuē  # 𢪎
-U+22A8F: hú,gǔ  # 𢪏
 U+22AA5: yǒu  # 𢪥
 U+22AA6: nǔ  # 𢪦
 U+22AA7: yè  # 𢪧
