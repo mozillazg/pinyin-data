@@ -1,9 +1,14 @@
 # ChangeLog
 
 
-## [0.16.0] (2026-xx-yy)
+## [0.16.0] (2026-11-01)
 
 * 更新 Unihan 数据版本为 18.0.0
+* 更新 `cc_cedict.txt`: 基于 phrase-pinyin-data v0.20.0 重新生成
+* 重新生成 `GBK_PUA.txt`
+* 修正若干汉字拼音，如 `唵`、`𥥈`、`炔`、`沒`，详见 [#63]
+* 根据 zdic 最新数据更正 `zdic.txt` 中部分内容，详见 [#60]
+* 修复 `Makefile`: `pua` 无法导入 `merge_unihan`，改用 `python3` 执行
 
 
 ## [0.15.0] (2025-01-12)
@@ -149,6 +154,8 @@
 [#26]: https://github.com/mozillazg/pinyin-data/pull/26
 [#27]: https://github.com/mozillazg/pinyin-data/pull/27
 [#47]: https://github.com/mozillazg/pinyin-data/pull/47
+[#60]: https://github.com/mozillazg/pinyin-data/pull/60
+[#63]: https://github.com/mozillazg/pinyin-data/pull/63
 [68dc169]: https://github.com/mozillazg/pinyin-data/commit/68dc169c3f0f02cb9bf53290edab2d2d2463e0c5
 [8802f31]: https://github.com/mozillazg/pinyin-data/commit/8802f31e0e65c6e34a497adb55993425741a9d41
 [#32]: https://github.com/mozillazg/pinyin-data/pull/32
@@ -175,3 +182,4 @@
 [0.13.0]: https://github.com/mozillazg/pinyin-data/compare/v0.12.0...v0.13.0
 [0.14.0]: https://github.com/mozillazg/pinyin-data/compare/v0.13.0...v0.14.0
 [0.15.0]: https://github.com/mozillazg/pinyin-data/compare/v0.14.0...v0.15.0
+[0.16.0]: https://github.com/mozillazg/pinyin-data/compare/v0.15.0...v0.16.0
