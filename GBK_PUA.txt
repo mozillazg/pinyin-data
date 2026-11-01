@@ -17,7 +17,7 @@ U+E821: hǎn  #   Unihan: U+360E 㘎
 # U+E823:   #   Unihan: U+2E97 ⺗
 U+E824: zhòu,chǎo  #   Unihan: U+396E 㥮
 U+E825: zhòu  #   Unihan: U+3918 㤘
-# U+E826:   #   Unihan: U+9FB5 龵
+U+E826: shǒu  #   Unihan: U+9FB5 龵
 U+E827: gāng  #   Unihan: U+39CF 㧏
 U+E828: kuǎi  #   Unihan: U+39DF 㧟
 U+E829: sǒng  #   Unihan: U+3A73 㩳
@@ -25,7 +25,7 @@ U+E82A: sǒng  #   Unihan: U+39D0 㧐
 # U+E82B:   #   Unihan: U+9FB6 龶
 # U+E82C:   #   Unihan: U+9FB7 龷
 U+E82D: gāng  #   Unihan: U+3B4E 㭎
-U+E82E: kuài  #   Unihan: U+3C6E 㱮
+U+E82E: kuài,huì  #   Unihan: U+3C6E 㱮
 U+E82F: tà  #   Unihan: U+3CE0 㳠
 # U+E830:   #   Unihan: U+2EA7 ⺧
 U+E831: pěng  #   Unihan: U+215D7 𡗗
@@ -59,7 +59,7 @@ U+E84C: shàn  #   Unihan: U+4982 䦂
 U+E84D: zhuō  #   Unihan: U+4983 䦃
 U+E84E: shàn  #   Unihan: U+4985 䦅
 U+E84F: jué  #   Unihan: U+4986 䦆
-U+E850: wěn,chuài  #   Unihan: U+499F 䦟
+U+E850: chuài,wěn  #   Unihan: U+499F 䦟
 U+E851: zhèng  #   Unihan: U+499B 䦛
 U+E852: chuài  #   Unihan: U+49B7 䦷
 U+E853: zhèng  #   Unihan: U+49B6 䦶
@@ -79,4 +79,4 @@ U+E860: jú  #   Unihan: U+4D17 䴗
 U+E861: tī  #   Unihan: U+4D18 䴘
 U+E862: pì  #   Unihan: U+4D19 䴙
 U+E863: yǎn  #   Unihan: U+4DAE 䶮
-# U+E864:   #   Unihan: U+9FBB 龻
+U+E864: luán  #   Unihan: U+9FBB 龻
